@@ -25,10 +25,11 @@ In Copilot and Copilot Chat, using the `/help` slash prompt can give a wealth of
 - If you want to view multiple suggestions in a new editor tab, type `<CTRL> + <ENTER>` to open a new tab and review the generated suggestions.
 
 #### Copilot Reference
-- Only open files are used for reference.
+- Open files are used as `context` for Copilot in other open files.
+- Only open files are used for context reference.
 - File in the project IDE, but not opened, are not used for referencing inline suggestions, fixes or other language specific interaction with Copilot.
-- You can prefix your prompt with `@workspace` scope to give copilot directives to reference the current workspace.
-- Scopes will not work in comment oriented suggestions and prompting.
+- You can prefix your prompt with `@workspace` scope agents to give copilot directives to reference the current workspace.
+- Scopes/Agents will not work in comment oriented suggestions and prompting.
 
 ## Useful Copilot Chat Techniques
 - To open a chat session to discuss a code snippet, highlight the code in the editor and type `<CTRL>+i` on Windows and Linux and `<CMD>+i` on macOS.
@@ -81,6 +82,9 @@ A: GitHub deletes prompt data after making the suggestion, and GitHub does not s
     - Insert into Terminal
 
 
+---
+
+> See: [Copilot Tip's](./qa.md)
 
 
 ---
