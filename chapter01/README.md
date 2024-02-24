@@ -21,6 +21,9 @@ The GitHub Copilot extension is an AI pair programmer tool that helps you write 
 ### [Copilot Tip's](./tips.md)
 Useful tips for using Copilot.
 
+### [Question and Anser Blocks](./qa.md)
+Creating a question and answer dialog
+
 
 
 ---

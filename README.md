@@ -3,7 +3,7 @@
 This project isGithub Copilot Workshop the example code for the Github Copilot Master Class
 
 (video)
-[![Github Copilot Master Class Video](https://img.youtube.com/vi/IgKDKUPfR1A/maxresdefault.jpg)](http://www.youtube.com/watch?v=IgKDKUPfR1A "Official Release: Github Copilot Master Class")
+[![Github Copilot Master Class Video](https://i0.wp.com/oksala.net/wp-content/uploads/2022/06/image-6.png?fit=1024%2C536&ssl=1)](http://www.youtube.com/watch?v=IgKDKUPfR1A "Official Release: Github Copilot Master Class")
 
 ## Github Copilot Workshop
 

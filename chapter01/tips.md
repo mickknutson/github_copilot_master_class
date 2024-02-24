@@ -16,13 +16,19 @@ Copilot tips and resources
 In Copilot and Copilot Chat, using the `/help` slash prompt can give a wealth of useful information and start a useful dialog.
 
 ## Useful Copilot Techniques
-Open a source file, write a comment description of what you want, type `<ENTER>`, and a suggestion should appear on the following line.
+
+#### Open a source file, write a comment description of what you want, type `<ENTER>`, and a suggestion should appear on the following line.
 - If you like the suggestion, hit `<TAB>` on the keyboard to accept.
 - If the suggestion is unacceptable and you want to type something else, type `<ESC>` on the keyboard to decline the suggestion. Then, you may continue typing.
 - If no suggestion appears, or the suggestion disappears, and you want it back, then hit `<ALT> + \` on the keyboard; if there is a suggestion, it will appear.
 - When there are multiple suggestions, to view them, type `<ALT>+]` or `<ALT>+[` to cycle left and right through them. Also, you can mouse over the suggestion to see more.
 - If you want to view multiple suggestions in a new editor tab, type `<CTRL> + <ENTER>` to open a new tab and review the generated suggestions.
 
+#### Copilot Reference
+- Only open files are used for reference.
+- File in the project IDE, but not opened, are not used for referencing inline suggestions, fixes or other language specific interaction with Copilot.
+- You can prefix your prompt with `@workspace` scope to give copilot directives to reference the current workspace.
+- Scopes will not work in comment oriented suggestions and prompting.
 
 ## Useful Copilot Chat Techniques
 - To open a chat session to discuss a code snippet, highlight the code in the editor and type `<CTRL>+i` on Windows and Linux and `<CMD>+i` on macOS.
