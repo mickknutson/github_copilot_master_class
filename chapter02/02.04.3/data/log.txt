@@ -1,0 +1,26 @@
+### LOG OUTPUT ###
+Micks-MacBook-Pro.local/2024_2_24 10:33:28: Application starting up...
+Micks-MacBook-Pro.local/2024_2_24 10:33:28: Data folder: /Users/mickknutson/Documents/workspace/BASELOGIC/github_copilot_master_class/chapter02/02.04.3/data
+Micks-MacBook-Pro.local/2024_2_24 10:33:28: ******* LOAD_JSON NOT FINISHED ******* 
+Micks-MacBook-Pro.local/2024_2_24 10:33:28: ******* LOAD_CSV NOT FINISHED ******* 
+Micks-MacBook-Pro.local/2024_2_24 10:33:47: Application starting up...
+Micks-MacBook-Pro.local/2024_2_24 10:33:47: Data folder: /Users/mickknutson/Documents/workspace/BASELOGIC/github_copilot_master_class/chapter02/02.04.3/data
+Micks-MacBook-Pro.local/2024_2_24 10:33:47: ******* LOAD_JSON NOT FINISHED ******* 
+Micks-MacBook-Pro.local/2024_2_24 10:33:47: ******* LOAD_CSV NOT FINISHED ******* 
+### LOG OUTPUT ###
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: Application starting up...
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: Data folder: /Users/mickknutson/Documents/workspace/BASELOGIC/github_copilot_master_class/chapter02/02.04.3/data
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: ******* BEGIN LOAD_JSON *******
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: Loading JSON file: /Users/mickknutson/Documents/workspace/BASELOGIC/github_copilot_master_class/chapter02/02.04.3/data/python-course.json
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: Course Name: Python CoPilot
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: Number of engagements: 7
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: London, Start Date: 2014-01-28T08:00:00.000Z, Active: False
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: London, Start Date: 2014-04-29T07:00:00.000Z, Active: False
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: London, Start Date: 2014-05-13T07:00:00.000Z, Active: True
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: London, Start Date: 2014-02-10T08:00:00.000Z, Active: False
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: London, Start Date: 2014-09-02T07:00:00.000Z, Active: True
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: London, Start Date: 2014-11-25T08:00:00.000Z, Active: True
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: City: Los Angeles, Start Date: 2014-03-18T07:00:00.000Z, Active: False
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: ******* BEGIN LOAD_CSV *******
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: Loading CSV file: /Users/mickknutson/Documents/workspace/BASELOGIC/github_copilot_master_class/chapter02/02.04.3/data/fx-seven-day.csv
+Micks-MacBook-Pro.local/2024_2_24 12:9:23: 1 USD is worth 60.115357451149656 Rupees.

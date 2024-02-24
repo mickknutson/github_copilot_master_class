@@ -1,0 +1,6 @@
+// start by creating a new file called `data.csv` in the same directory as this file
+// create csv data for 'id, name, phone' and two contacts
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
+id, name, phone
+1, John, 555-1234
+2, Paul, 555-2345
