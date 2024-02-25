@@ -2,52 +2,50 @@
 The `@workspace` scope allows you to interact with Github Copilot specifically with the current `workspace` in your ide.
 
 
-## Exercises
-Open Github Copilot Chat
-![Open GitHub Copilot Chat](../docs/images/chapter.02.open-cpc.jpg)
 
-### Prompting for workspace details for a specific language (JavaScript)
-```text
-cd ~/chapter02/02.01.1/
-```
-```text
-/createWorkspace for javascript project using jest
-```
-
-### You can even create Scaffolding for project
-```text
-cd ~/chapter02/02.01.1/
-```
+## Prompting for workspace details for a specific language (JavaScript)
+`/createWorkspace`:
 
 ```text
-@workspace /new node scaffolding for javascript project using jest
+/createWorkspace for javascript project using Jest
+```
+
+> NOTICE The above prompt. Copilot returns a description of the steps and result for a Maven oriented project, but suggests to use a Maven Archetype on the Terminal.
+
+Using this prompt will leverage the IDE to create the proposed project and even ask the root directory the new project should be created in:
+`@workspace /new`:
+```text
+@workspace /new initialize a JavaScript project using the Jest module called my-js-project
+```
+> NOTE: This is not the correct structure for a project that uses Jest for testing. This gives a better example:
+```t
+how do i initialize a javascipt project that uses Jest module called my-js-project
+```
+
+---
+## Prompting for workspace details for a Python project
+```text
+@workspace /new python project
 ```
 
 ---
 
-### Prompting for workspace details for a Java project 
+## Prompting for workspace details for a Java project 
 ```text
 @workspace what is the proper project structure for a Java Project
 ```
 ```text
-@workspace /new Java Project
+@workspace /new scaffolding for a Java Project
 ```
 ---
 
-### Prompting for workspace details for a Java project using Maven
+## Prompting for workspace details for a Java project using Maven
+`@workspace /new` with more project details:
 ```text
-@workspace create a Java Project using the latest version of Maven
+@workspace /new Java Project using Maven with the package structure of com.baselogic.copilot.demo
 ```
-verse:
-```text
-@workspace /new Java Project using the latest version of Maven
-```
----
 
-### Prompting for workspace details for a Python project
-```text
-@workspace /new python project
-```
+
 
 
 

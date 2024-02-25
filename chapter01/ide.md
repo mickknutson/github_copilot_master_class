@@ -1,7 +1,9 @@
 # IDE Installation and Configuration
 
-### Installation
-Introduction to Artificial Intelligence (AI).
+
+## Copilot Chat
+Open Github Copilot Chat
+![Open GitHub Copilot Chat](../docs/images/chapter.02.open-cpc.jpg)
 
 
 ---

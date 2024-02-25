@@ -1,0 +1,11 @@
+date,office,district,county,candidate,party,votes
+2012-11-06,President,,Fairfax,"Romney, Mitt",GOP,1000
+2012-11-06,President,,Fairfax,"Obama, Barack",DEM,2000
+2012-11-06,President,,Shenandoah,"Romney, Mitt",GOP,800
+2012-11-06,President,,Shenandoah,"Obama, Barack",DEM,800
+2012-11-06,President,,Lee,"Romney, Mitt",GOP,900
+2012-11-06,President,,Lee,"Obama, Barack",DEM,500
+2012-11-06,U.S. Rep,1,,"Smith, John",GOP,500
+2012-11-06,U.S. Rep,1,,"Doe, Jane",DEM,500
+2012-11-06,U.S. Rep,2,,"Ice, Vanilla",GOP,500
+2012-11-06,U.S. Rep,2,,"Hammer, M.C.",DEM,300
