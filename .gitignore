@@ -1,8 +1,13 @@
+# .gitignore
+
 # Ignore macOS system files
 .DS_Store
 
-# Ignore VS Code settings
+# Ignore IDE specific files
+.idea/
 .vscode/
+*.swp
+*.swo
 
 # Ignore all subdirectories and files in chapter099
 chapter099/
