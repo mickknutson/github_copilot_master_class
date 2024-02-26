@@ -25,7 +25,8 @@ how do i initialize a javascipt project that uses Jest module called my-js-proje
 ---
 ## Prompting for workspace details for a Python project
 ```text
-@workspace /new python project
+@workspace /new scaffolding for a Python using the Pytest modules project called my-python-project
+how do i initialize a Python project using the Pytest module called my-python-project
 ```
 
 ---
