@@ -3,6 +3,7 @@
 There are various ways to refactor code using Copilot.
 
 ## Types of refactoring
+- Transformation
 - Outdated APIs
 - Complex code
 - Broken code
@@ -10,20 +11,10 @@ There are various ways to refactor code using Copilot.
 
 
 ---
-## Open a file in the IDE
+## Exercises
 
-- Open the following file: 
-[election_results.py](./03.01.1/lab/election_results.py)
+> * [JavaScript Transformation Exercise](./03.01.1/instructions.md)
 
-
-## Asking for general recommendations
-We can start by asking general recomendations from Copilot
-Open: [data.csv](./03.01.2/lab/StudentGradeCalculator.java)
-
-```text
-// create csv data for 'id, name, phone' with 10 rows of data
-// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
-```
 
 
 

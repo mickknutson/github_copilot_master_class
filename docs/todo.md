@@ -1,27 +1,14 @@
 # Project TODO's
 
-> * Get Selenium / WebDriver tests to work.
-> * TB
 
-
----
-
-
-# Sections for next course module
-> * TBD
-
-
-# Videos to create:
-> * TBD
-
-
-
-
-# Research for possible inclusion:
-> * TBD
+## Leverage Jupyter Notebooks:
+Use the following prompt to learn how to implment:
+```t
+How do i execute a Julyter notebook on github.com
+```
 
 
 
 ---
 
-# [../](../README.md)
+#### [../back](../README.md)

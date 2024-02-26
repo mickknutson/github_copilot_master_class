@@ -6,7 +6,6 @@ General resources from this course.
 > * [Node JS](https://nodejs.org)
 > * [Node Package Manager NPM](https://www.npmjs.com/)
 > * [Yarn package Manager](https://yarnpkg.com/)
-
 > * [Jest](https://jestjs.io/)
 > * [Mocha](https://mochajs.org/)
 > * [Chai](https://www.chaijs.com/)
@@ -15,6 +14,8 @@ General resources from this course.
 ## Python
 > * [Python](https://python.org)
 > * [Pytest](https://pytest.org)
+> * [Anaconda Python Distribution](https://anaconda.org/)
+
 
 
 ## Java
@@ -53,6 +54,8 @@ General resources from this course.
 > * [HTTP Public Key Pinning (HPKP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Public_Key_Pinning)
 
 
+## Misc
+> * [Google Colab for Github](https://colab.research.google.com/github/)
 
 
 ---
