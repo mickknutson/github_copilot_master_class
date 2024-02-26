@@ -17,7 +17,7 @@
 //       arr[j + 1] = current;
 //     }
 //     return arr;
-// }  
+// }
 
 // Descrition: Implement a sort algorithm.
 /**

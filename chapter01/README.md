@@ -6,25 +6,25 @@ Introduction to Artificial Intelligence (AI) and Large Language Models (LLM).
 
 ## Introduction to Copilot
 Introduction to Github Copilot.
-### [GH Copilot vs GH Copilot Chat](./gh_cp.md)
+1. [Github Copilot vs Github Copilot Chat](./gh_cp.md)
 
-### [IDE Configuration](./ide.md)
+2. [IDE Configuration](./ide.md)
 
 
-### [Copilot as a general research assistant](./assistant.md)
+3. [Copilot as a general research assistant](./assistant.md)
 The GitHub Copilot extension is an AI research assistant tool that helps you understand a variety of technical knowledge.
 
-### [Copilot for specific technical research](./research.md)
+4. [Copilot for specific technical research](./research.md)
 The GitHub Copilot extension is an AI pair programmer tool that helps you write code faster and smarter.
 
 
-### [Copilot Tip's](./tips.md)
+5. [Copilot Tip's](./tips.md)
 Useful tips for using Copilot.
 
-### [Question and Answer Blocks](./qa.md)
+6. [Question and Answer Blocks](./qa.md)
 Creating a question and answer dialog
 
-### [Blocking files from Github Copilot](./blocking.md)
+7. [Blocking files from Github Copilot](./blocking.md)
 Creating a question and answer dialog
 
 

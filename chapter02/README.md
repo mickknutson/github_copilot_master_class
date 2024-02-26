@@ -1,6 +1,6 @@
 # Chapter 02: Using Copilot for coding
 
-This section is the reference application for the rest of this course.
+Various features of Github Copilot including example prompts and exercises for different features.
 
 ---
 
@@ -12,12 +12,6 @@ This section is the reference application for the rest of this course.
 
 4. [Code Generation](./code.md)
 
-
-
----
-
-## Resources
-> * [Project Resources](../docs/resources.md)
 
 ---
 
