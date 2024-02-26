@@ -14,22 +14,29 @@ This exercise contains two directories:
 
 1. Open Copilot Chat
 2. Open [./lab/Sorting.js](./lab/Sorting.js)
+
 3. Highlighting the `sort(arr)` function and open copilot (`CMD+i`) and ask Copilot to explain the code
 ```t
 /explain
 ```
 
-4. Determine the type of sort that is implmented by highlighting the `sort(arr)` function
+4. Ask Copilot if there is a better option for this function
+```t
+is there a better algorithm that can be used
+```
+
+5. Determine the type of sort that is implmented by highlighting the `sort(arr)` function
 ```t
 which sorting algotithm is this
 ```
 
-5. Transform the sort function to a bubble sort by highlighting the `sort(arr)` function
+
+6. Transform the sort function to a bubble sort by highlighting the `sort(arr)` function
 ```t
 convert this to a bubble sort
 ```
 
-6. Use Copilot to generate documentation for the sort method:
+7. Use Copilot to generate documentation for the sort method:
 ```t
 /doc
 ```
