@@ -1,0 +1,8 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore all subdirectories and files in chapter099
+chapter099/
