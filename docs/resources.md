@@ -2,23 +2,47 @@
 General resources from this course.
 
 
+# JavaScript
+> * [Node JS](https://nodejs.org)
+> * [Node Package Manager NPM](https://www.npmjs.com/)
+> * [Yarn package Manager](https://yarnpkg.com/)
+
+> * [Jest](https://jestjs.io/)
+> * [Mocha](https://mochajs.org/)
+> * [Chai](https://www.chaijs.com/)
+
+
+## Python
+> * [Python](https://python.org)
+> * [Pytest](https://pytest.org)
+
+
+## Java
+> * [Maven Repository Search](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api)
+
+
 ## Spring Resources
-> * [spring-boot](https://spring.io/projects/spring-boot)
-> * [production-ready-endpoints](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints)
-> * [spring-data](https://spring.io/projects/spring-data)
-> * [spring-data-jpa](https://spring.io/projects/spring-data-jpa)
-> * [spring-data-mongodb](https://spring.io/projects/spring-data-mongodb)
+> * [Spring Boot Home](https://spring.io/projects/spring-boot)
+> * [Boot Production-ready-endpoints](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-endpoints)
+> * [spring-data project](https://spring.io/projects/spring-data)
+> * [spring-data-jpa project](https://spring.io/projects/spring-data-jpa)
+> * [spring-data-mongodb project](https://spring.io/projects/spring-data-mongodb)
 
 
 ## Database Resources
 > * [http://www.h2database.com/html/main.html](http://www.h2database.com/html/main.html)
-> * [https://www.mongodb.com/](https://www.mongodb.com/)
-> * [https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo)
+> * [Mongo DB](https://www.mongodb.com/)
+> * [Embedded in-memory Mongo BD](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo)
+
+
+## HTTP Resources
+> * [TBD](https://TBD.org)
+
 
 ## Security Resources
 > * [https://en.wikipedia.org/wiki/Internet_security](https://en.wikipedia.org/wiki/Internet_security)
 > * [https://owasp.org/](https://owasp.org/)
-> * [https://owasp.org/www-project-top-ten/](https://owasp.org/www-project-top-ten/)
+> * [OWASP top-ten Vulnerabilities](https://owasp.org/www-project-top-ten/)
 > * [https://en.wikipedia.org/wiki/Authentication](https://en.wikipedia.org/wiki/Authentication)
 > * [BASE Logic, Inc.](https://baselogic.io)
 > * [x.509](https://en.wikipedia.org/wiki/X.509)

@@ -1,6 +1,6 @@
-# Instructions
+# Python Instructions
 
-The following are instructions for shit sections exercise 
+The following are instructions for JavaScript exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -86,7 +86,10 @@ npm install jest
 ```t
 npm test
 ```
-> 
+
+--- 
+# Notes
+> * Note issues with Pytest
 
 ---
 

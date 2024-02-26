@@ -1,6 +1,6 @@
-# Instructions
+# JavaScript Instructions
 
-The following are instructions for shit sections exercise 
+The following are instructions for shit sectionPython exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -86,7 +86,13 @@ npm install jest
 ```t
 npm test
 ```
-> 
+
+
+--- 
+# Notes
+> * Note issues with Jest
+> * The @workspace /new prompt creates a layout that uses `./test` directory not `__tests__` that is required for `Jest`
+
 
 ---
 

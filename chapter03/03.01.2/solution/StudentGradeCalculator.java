@@ -4,6 +4,9 @@ import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * From: https://github.com/CodelyTV/refactoring-code_smells-design_patterns/blob/main/examples/java/java-student_grades-05_simplify_conditionals/src/main/java/tv/codely/student_grades/StudentGradeCalculator.java
+ */
 public class StudentGradeCalculator {
     final private Map<Integer, List<Pair<String, Boolean>>> allYearsTeachers = Map.ofEntries(
         new AbstractMap.SimpleImmutableEntry<>(
