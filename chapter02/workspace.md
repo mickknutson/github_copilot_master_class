@@ -2,7 +2,7 @@
 The `@workspace` scope allows you to interact with Github Copilot specifically with the current `workspace` in your ide.
 
 
-
+# JavaScript
 ## Prompting for workspace details for a specific language (JavaScript)
 `/createWorkspace`:
 
@@ -22,14 +22,13 @@ Using this prompt will leverage the IDE to create the proposed project and even 
 how do i initialize a javascipt project that uses Jest module called my-js-project
 ```
 
----
+# Python
 ## Prompting for workspace details for a Python project
 ```text
-@workspace /new scaffolding for a Python using the Pytest modules project called my-python-project
 how do i initialize a Python project using the Pytest module called my-python-project
 ```
 
----
+# Java
 
 ## Prompting for workspace details for a Java project 
 ```text
@@ -43,7 +42,15 @@ how do i initialize a Python project using the Pytest module called my-python-pr
 ## Prompting for workspace details for a Java project using Maven
 `@workspace /new` with more project details:
 ```text
-@workspace /new Java Project using Maven with the package structure of com.baselogic.copilot.demo
+@workspace /new Java Project using Maven and Junit with the package structure of com.baselogic.copilot.demo
+```
+
+
+# Spring Boot
+## Prompting for workspace details for a Java project using Maven
+`@workspace /new` with more project details:
+```text
+@workspace /new Spring Boot Project using Maven with the package structure of com.baselogic.copilot.demo
 ```
 
 
