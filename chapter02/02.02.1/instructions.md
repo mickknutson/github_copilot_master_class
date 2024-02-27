@@ -1,6 +1,6 @@
-# Java Instructions
+# TBD Exercise
 
-The following are instructions for Java exercise 
+The following are instructions for the exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -20,12 +20,10 @@ tbd
 
 
 
-
-
-
 --- 
 # Notes
-> TBD
+> * 
+
 
 ---
 

@@ -9,15 +9,17 @@ Depending upon your language, there are many ways in Copilot to create code for 
 - Copilot
 - Copilot Chat
 
-## Code generation Examples
+## Shot Prompting
 * [Shot Prompting](./02.04.1/README.md)
-* [Functions](./02.04.2/README.md)
 
 
-## Excercises
+# Excercises
 
-### Python Code generation exercise
-> * [Python exercise instruction](./02.04.3/README.md)
+1. [Shot Prompting](./02.04.1/instructions.md)
+
+2. [Functions](./02.04.2/instructions.md)
+
+3. [Python](./02.04.3/instructions.md)
 
 
 

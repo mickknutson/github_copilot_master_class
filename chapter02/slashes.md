@@ -16,13 +16,7 @@ Slash Commands
 
 ## Excercises
 
-### CSV Files
-Create a csv file.
-```text
-// create csv data for 'id, name, phone' with 10 rows of data
-// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
-```
-[data.csv](./02.02.1/data.csv)
+
 
 ---
 

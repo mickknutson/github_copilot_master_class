@@ -13,7 +13,9 @@ There are various ways to refactor code using Copilot.
 ---
 ## Exercises
 
-> * [JavaScript Transformation Exercise](./03.01.1/instructions.md)
+1. [JavaScript Transformation Exercise](./03.01.1/instructions.md)
+
+2. [Java Exercise](./03.01.2/instructions.md)
 
 
 

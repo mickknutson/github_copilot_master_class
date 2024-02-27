@@ -4,7 +4,7 @@ The `@terminal` scope allows you to interact with GH CP specifically with the cu
 
 ## Exercises
 
-### Prompting for workspace details for a specific language (JavaScript)
+### Terminal
 ```text
 @terminal what is bash
 ```

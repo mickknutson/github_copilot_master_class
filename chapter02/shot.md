@@ -1,4 +1,4 @@
-# X-Shot Prompting for a Python Project
+# X-Shot Prompting
 
 ## Zero Shot Prompting
 
@@ -84,4 +84,4 @@ class Car {
 
 ---
 
-#### [../back](../code.md)
+#### [../back](./README.md)

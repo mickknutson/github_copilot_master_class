@@ -1,4 +1,4 @@
-# Java Instructions
+# Shot Prompting Exercise
 
 The following are instructions for Java exercise 
 
@@ -21,11 +21,11 @@ tbd
 
 
 
-
-
 --- 
 # Notes
 > TBD
+
+
 
 ---
 

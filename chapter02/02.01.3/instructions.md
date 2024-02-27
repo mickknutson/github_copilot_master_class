@@ -1,4 +1,4 @@
-# Java and Maven Instructions
+# Java and Maven workspace Exercise
 
 The following are instructions for Java exercise 
 

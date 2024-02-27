@@ -9,7 +9,7 @@ Introduction to Github Copilot Scopes
 - `@vscode` is for editor configuration and managing extensions.
 - `@terminal` is for running commands in the terminal.
 
-## Excercises
+# Sections
 > * [`@workspace` Excercises](workspace.md)
 
 > * [`@vscode` Excercises](vscode.md)
@@ -17,11 +17,15 @@ Introduction to Github Copilot Scopes
 > * [`@terminal` Excercises](terminal.md)
 
 
+# Excercises
 
----
+1. [Python Workspace Exercise](./02.01.1/instructions.md)
 
-## Resources
-> * [Project Resources](../docs/resources.md)
+2. [JavaScript Workspace Exercise](./02.01.2/instructions.md)
+
+3. [Java and Maven workspace Exercise](./02.01.3/instructions.md)
+
+
 
 ---
 

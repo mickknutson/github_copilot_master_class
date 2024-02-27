@@ -52,14 +52,6 @@ Name the project my-java-project
 ```
 > See notes below
 
-
-# Spring Boot
-## Prompting for workspace details for a Java project using Maven
-`@workspace /new` with more project details:
-```text
-@workspace /new Spring Boot Project using Maven with the package structure of com.baselogic.copilot.demo
-```
-
 ---
 # Notes
 

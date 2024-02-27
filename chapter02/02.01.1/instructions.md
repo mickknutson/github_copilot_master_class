@@ -1,4 +1,4 @@
-# Python Instructions
+# Python Workspace Exercise
 
 The following are instructions for JavaScript exercise 
 
