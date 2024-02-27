@@ -11,3 +11,7 @@
 
 # Ignore all subdirectories and files in chapter099
 chapter099/
+
+# Ignore all tmp directories
+**/tmp/
+

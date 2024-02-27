@@ -1,4 +1,4 @@
-# Creating Data
+# Creating and Using Data
 Various ways to create data in copilot
 
 
@@ -11,6 +11,9 @@ Depending upon your language, there are many ways in Copilot to create data.
 - YAML
 
 ## Excercises
+
+1. [Housing Data Exercises](./02.03.2/instructions.md)
+
 
 ### CSV Files
 Create a csv file.

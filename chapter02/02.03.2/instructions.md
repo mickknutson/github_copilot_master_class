@@ -1,6 +1,6 @@
 # Housing Data Exercises
 
-The following are instructions for shit sectionPython exercise 
+The following are instructions for an exercise that uses Python with `panda`, `seaborn` and `matplotlib`.
 
 ## Outline
 This exercise contains two directories:
@@ -33,6 +33,8 @@ how do i install the python package pandas
 ```
 
 6. Right-click on the `HousingData.py` and select `Run Python File in Terminal`.
+
+7. The output `png` files should be located in the `./tmp` directory.
 
 
 --- 
