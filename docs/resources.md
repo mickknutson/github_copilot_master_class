@@ -37,7 +37,9 @@ General resources from this course.
 
 
 ## HTTP Resources
-> * [TBD](https://TBD.org)
+> * [HTTP Protocol](https://en.wikipedia.org/wiki/HTTP)
+> * [HTTP/2 Protocol](https://en.wikipedia.org/wiki/HTTP/2)
+> * [HTTP/3 Protocol](https://en.wikipedia.org/wiki/HTTP/3)
 
 
 ## Security Resources
@@ -56,6 +58,7 @@ General resources from this course.
 
 ## Misc
 > * [Google Colab for Github](https://colab.research.google.com/github/)
+> * [Various Datasets](https://github.com/fenago/datasets)
 
 
 ---

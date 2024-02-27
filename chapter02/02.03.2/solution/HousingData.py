@@ -16,10 +16,10 @@ def analyze_data():
     # Example: Histogram of a numerical variable
     sns.histplot(data['MEDV'])
 
-    plt.savefig('./tmp/histplot.png')
+    plt.savefig('./tmp/housing-histplot.png')
 
     sns.displot(data);
-    plt.savefig('./tmp/displot.png')
+    plt.savefig('./tmp/housing-displot.png')
 
     # TODO: Add this in the future...
     # Bivariate analysis
