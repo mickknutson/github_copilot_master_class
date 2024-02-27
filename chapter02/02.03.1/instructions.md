@@ -1,4 +1,4 @@
-# JavaScript Workspace Exercise
+# Housing Data Exercises
 
 The following are instructions for shit sectionPython exercise 
 
@@ -13,85 +13,31 @@ This exercise contains two directories:
 ## Exercise Instructions
 
 1. Open Copilot Chat
-2. Use the following prompt to create a base JavaScript project:
+
+2. Create a new Python files named `HousingData.py`
+
+3. Add the following description:
+```
+# Describe: Function to create a univariate and bivariate analysis on dataset.
+```
+
+4. Use copilot to generate a fnction using the following prompt:
+
 ```t
-how do i initialize a javascipt project that uses Jest module called my-js-project
+Create a function to perform a univariate and bivariate analysis on HousingData.csv and present the outcomes as visual using Seaborn.
 ```
 
-
-
-
-
-
-3. Copilot chat will describe the project layout and display a `Create Workspace` button. Click the `Create Workspace` button and choose `~/lab` as the _Parent Directory_ for the new project.
-
-4. The new project will be created and the IDE will open the `~/lab/my-jest-project` directory as the parent and you will be in the newly created project.
-
-5. Inspect the `./src/index.js` and `./test/index.test.js` files.
-
-6. Open `./src/index.js` and put the following text at the beginning of the file:
-
-```text
-// Describe: This is a simple hello world program
-```
-
-7. Open Copilot (_Ctrl+ Enter_ or _Cmd+i_) and add the following prompt:
-
-```text
-/ create a hello world function that returns a string
-/ that says "Hello, World!"
-/ export the function so that it can be used in other files
-```
-
-8. Copilot should generate the following:
-
-```text
-function helloWorld() {
-  return "Hello, World!";
-}
-
-module.exports = helloWorld;
-```
-
-9. Open `./src/index.js` and open Copilot and enter the prompt `/tests`. You should get a refactor preview. Accept the suggestion and you should get the following in `./test/index.test.js`:
-```text
-const { helloWorld } = require('../src/index');
-
-test('helloWorld function returns the correct greeting', () => {
-  const result = helloWorld();
-  expect(result).toBe('Hello, world!');
-});
-```
-
-10. Open a terminal to the root directory and run the `npm test` to execute the tests and the code.
-
-> You might see the following error on the terminal:
-```
-sh: jest: command not found
-```
-
-14. If you do, open Copilot and enter the following prompt:
+5. There are two packages that might not be installed. Ask Copilot Chat how to install those packages and following the instructions to install both packages.
 ```t
-@terminal /explain jest: command not found
+how do i install the python package pandas
 ```
 
-> This will describe, in detail, what is causing the error, and the ways to correct the error.
-
-15. Install Jest:
-```t
-npm install jest
-```
-
-15. Rerun the tests:
-```t
-npm test
-```
+6. Right-click on the `HousingData.py` and select `Run Python File in Terminal`.
 
 
 --- 
 # Notes
-> * Note issues with Jest
-> * The @workspace /new prompt creates a layout that uses `./test` directory not `__tests__` that is required for `Jest`
+> * TBD
 
 
 ---
