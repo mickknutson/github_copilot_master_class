@@ -1,4 +1,4 @@
-# Housing Data Exercises
+# Open AI Whisper Exercises
 
 The following are instructions for an exercise that uses Python with `panda`, `seaborn` and `matplotlib`.
 
@@ -39,7 +39,20 @@ how do i install the python package pandas
 
 --- 
 # Notes
-> * TBD
+> * Initial code that copilot generated was outdated:
+```
+You tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+```
+
+> * Need to get an api_keyn for this to work:
+
+'openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable'
 
 
 ---
