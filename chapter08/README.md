@@ -6,7 +6,10 @@ GitHub Copilot is an AI-powered code completion tool that significantly enhances
 
 ## Topics
 
-1. [Pull Requests](./pull.md)
+1. [Github CLI](./08.01.1/instructions.md)
+2. [Github Copilot X CLI](./08.01.2/instructions.md)
+3. [Github gh-copilot cli extension](./08.01.3/instructions.md)
+4. [Pull Requests](./08.01.4/instructions.md)
 
 
 ---

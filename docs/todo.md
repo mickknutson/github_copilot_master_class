@@ -10,7 +10,7 @@ How do i execute a Jupyter notebook on github.com
 
 > * Create RESTful example?
 
-> * TBD
+> * Add GH CP CLI: https://github.com/LadyKerr/cli-skills-copilot-talk/blob/main/README.md
 
 
 ---

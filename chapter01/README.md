@@ -1,7 +1,7 @@
 # Chapter 01: Introduction
 
-### [Introduction to AI and LLM's](./ai.md)
-Introduction to Artificial Intelligence (AI) and Large Language Models (LLM).
+### [Github Copilot Under the covers](./ai.md)
+How copilot was trained
 
 
 ## Introduction to Copilot
