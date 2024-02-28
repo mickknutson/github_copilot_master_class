@@ -2,14 +2,14 @@
 
 There are various ways to refactor code using Copilot.
 
-## Types of refactoring
+## Types of refactoring adn advice
 - Transformation
 - Optimazation
 - Outdated APIs
 - Complex code
 - Broken code
 - Inefficient code
-- Secure Coding
+- Insecure code
 
 
 ---

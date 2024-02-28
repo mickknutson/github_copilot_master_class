@@ -1,4 +1,4 @@
-# TBD Exercise
+# Explain Exercise
 
 The following are instructions for the exercise 
 
@@ -13,9 +13,10 @@ This exercise contains two directories:
 ## Exercise Instructions
 
 1. Open Copilot Chat
-2. Use the following prompt to create a base JavaScript project:
+2. Select a function in [heapsort.py](./solution/heapsort.py)
+3. Use the following prompt:
 ```t
-tbd
+/explain
 ```
 
 
