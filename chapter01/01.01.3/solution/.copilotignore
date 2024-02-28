@@ -1,0 +1,16 @@
+# .copilotignore
+
+# Ignore secrets
+secret/
+
+# Ignore all log files
+**/*.log
+
+# Ignore a specific file
+config/secret-config.json
+
+# Ignore all files in any directory named temp
+temp/
+
+# Ignore a specific directory and its contents
+docs/generated/

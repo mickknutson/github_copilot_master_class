@@ -1,4 +1,4 @@
-# JavaScript Transformation Instructions
+# JavaScript Transformation and Refactoring Instructions
 
 The following are instructions for JavaScript Transformation exercise 
 

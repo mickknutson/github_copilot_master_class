@@ -21,13 +21,14 @@ This project isGithub Copilot Workshop the example code for the Github Copilot M
 
 2. [Using Copilot for coding](chapter02/README.md)
 
-1. [Refactoring](./chapter03/README.md)
+3. [Refactoring](./chapter03/README.md)
 
-3. [Testing](./chapter04/README.md)
-1. [Debugging](./chapter05/README.md)
-1. [GH Rest API's](./chapter01.00/README.md)
+4. [Testing](./chapter04/README.md)
+5. [Debugging](./chapter05/README.md)
+6. [Github Rest API's](./chapter01.00/README.md)
+7. [GitHub Advanced Security](./chapter01.00/README.md)
 
-99. [Using Copilot for Github repository management](chapter03/README.md)
+8. [Using Copilot for Github repository management](chapter03/README.md)
 
 
 ---

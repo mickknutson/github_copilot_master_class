@@ -1,0 +1,14 @@
+[Title of the prompt] 
+
+Prompt content: Content of the prompt that sometimes includes <placeholders>.
+<placeholders> are a tool you use to make better prompt templates.
+
+(Comments that are not part of the prompt are written between parenthesis like this) 
+
+## (The two hashtags separate the same prompt into two or more sections)
+
+--- (The three dashes separate examples inside the same prompt)
+
+*** (The three stars separate two different prompts or two different outputs)
+
+* ChatGPT's output: (When it's relevant, you'll see the response to ChatGPT written like this)

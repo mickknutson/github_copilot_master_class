@@ -14,6 +14,7 @@ Introduction to Github Copilot.
 3. [Copilot as a general research assistant](./assistant.md)
 The GitHub Copilot extension is an AI research assistant tool that helps you understand a variety of technical knowledge.
 
+
 4. [Copilot for specific technical research](./research.md)
 The GitHub Copilot extension is an AI pair programmer tool that helps you write code faster and smarter.
 
@@ -21,11 +22,18 @@ The GitHub Copilot extension is an AI pair programmer tool that helps you write 
 5. [Copilot Tip's](./tips.md)
 Useful tips for using Copilot.
 
+
 6. [Question and Answer Blocks](./qa.md)
 Creating a question and answer dialog
 
+
 7. [Blocking files from Github Copilot](./blocking.md)
 Creating a question and answer dialog
+
+
+8. [Github Copilot Prompting Tips](./prompting.md)
+Techniquies for creating better prompts.
+
 
 
 

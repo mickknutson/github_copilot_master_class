@@ -1,0 +1,27 @@
+[Examples of a simple prompts] 
+
+Prompt example #1: Act as an independant analyst who specializes in <field_1> and <field_2>.
+Search the internet for the pros and cons of Microservices.
+
+Use 5 bullet points for pros and 5 bullet points for cons.
+Browse at least 6 different sources and cite each one of them in your analysis.
+
+##
+
+<field_1>: Software Development
+<field_2>: DevOps
+
+***
+
+Prompt example #2: Explain the CI/CD process as if you're talking to a Sophmore College student
+
+##
+
+Desired format:
+Introduction.
+- CI/CD #1: explanation and example.
+- CI/CD #2: explanation and example.
+- CI/CD #3: explanation and example.
+- CI/CD #4: explanation and example.
+- CI/CD #5: explanation and example.
+Conclusion.

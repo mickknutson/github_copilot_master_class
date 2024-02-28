@@ -39,7 +39,8 @@ public class StudentGradeCalculator {
             List.of(new Pair<>("Lerele", false))
         )
     );
-    private final int                                       yearToCalculate;
+    private fina
+           l int                                       yearToCalculate;
 
     public StudentGradeCalculator(final int yearToCalculate) {
         this.yearToCalculate = yearToCalculate;

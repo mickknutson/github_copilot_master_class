@@ -1,6 +1,6 @@
-# Java Instructions
+# Prompting Exercise
 
-The following are instructions for Java exercise 
+The following are instructions for the exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -13,11 +13,10 @@ This exercise contains two directories:
 ## Exercise Instructions
 
 1. Open Copilot Chat
-2. Use the following prompt to create a base JavaScript project:
+2. Use the following prompt:
 ```t
-tbd
+TBD
 ```
-
 
 
 
@@ -25,7 +24,7 @@ tbd
 
 --- 
 # Notes
-> TBD
+> * tbd
 
 ---
 

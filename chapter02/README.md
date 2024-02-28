@@ -14,6 +14,8 @@ Various features of Github Copilot including example prompts and exercises for d
 
 5. [Code Generation](./code.md)
 
+6. [Jupyter Notebooks](./jupyter.md)
+
 
 
 ---
