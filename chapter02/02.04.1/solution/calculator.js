@@ -1,3 +1,5 @@
+// Description: calculator function
+
 function calculator(a, b, operator) {
   switch (operator) {
     case '+':

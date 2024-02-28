@@ -79,8 +79,11 @@ class Car {
   void drive();
 }
 ```
-[Airplane.py](./solution/airplane.py)
+[Airplane.py](./02.04.1/solution/airplane.py)
 
+
+## Exercises:
+[shot prompting](./02.04.1/instructions.md)
 
 ---
 

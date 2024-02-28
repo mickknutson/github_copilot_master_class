@@ -28,7 +28,7 @@ This project isGithub Copilot Workshop the example code for the Github Copilot M
 6. [Github Rest API's](./chapter06/README.md)
 7. [GitHub Advanced Security GHAS](./chapter07/README.md)
 
-8. [Using Copilot for Github repository management](chapter03/README.md)
+8. [GitHub Copilot for GIT tasks](chapter08/README.md)
 
 
 ---

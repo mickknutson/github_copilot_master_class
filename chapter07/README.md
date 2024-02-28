@@ -41,6 +41,10 @@ Dependency review helps you review your project's dependencies for known vulnera
 #### Using Dependency Review:
 - This feature is automatically enabled with GHAS.
 - When opening or reviewing a pull request, check the "Files changed" tab for a dependency review report.
+  
+#### Utilizing Dependency Insights
+- Dependency Graph: Ensure the Dependency Graph is enabled in your repository's settings to track dependencies.
+- View Dependency Alerts: Check the "Security" tab for any alerts related to your dependencies. Update or replace vulnerable dependencies as recommended.
 
 ### Security Overview
 Get an overview of the security status across all your repositories in an organization.
@@ -57,3 +61,9 @@ Get an overview of the security status across all your repositories in an organi
 
 ## Conclusion
 GitHub Advanced Security provides powerful tools to enhance the security of your software. By integrating GHAS into your development workflow, you can proactively identify and mitigate security risks, ultimately building more secure applications. Remember, security is an ongoing process, and tools like GHAS are here to help you along the way.
+
+
+
+---
+
+#### [../back](../README.md)
