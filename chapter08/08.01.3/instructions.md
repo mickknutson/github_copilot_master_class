@@ -1,6 +1,6 @@
 # GitHub Copilot CLI Extension Tutorial
 
-GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. The `gh-copilot` CLI extension brings the power of GitHub Copilot directly to your terminal, allowing you to generate code, comments, and even entire functions quickly through the command line interface.
+The `gh-copilot` CLI extension brings the power of GitHub Copilot directly to your terminal, allowing you to generate code, comments, and even entire functions quickly through the command line interface.
 
 ## Prerequisites
 

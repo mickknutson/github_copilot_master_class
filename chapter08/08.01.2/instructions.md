@@ -19,6 +19,10 @@
    ```sh
    npm install -g @github/copilot-cli
    ```
+   new:
+   ```t
+   npm install -g @githubnext/github-copilot-cli
+   ```
 
    This command installs the GitHub Copilot CLI globally on your system, making it accessible from any directory.
 

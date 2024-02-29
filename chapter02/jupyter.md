@@ -1,8 +1,9 @@
 # Jupyter Notebooks
 
 
-## Jupyter  Exercise
-[Jupyter  Exercise](./02.03.4/instructions.md)
+## Exercise
+[Jupyter  Exercise](./02.06.1/instructions.md)
+
 
 ---
 

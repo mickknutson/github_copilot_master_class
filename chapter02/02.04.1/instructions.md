@@ -1,6 +1,6 @@
-# Shot Prompting Exercise
+# Data Exercises
 
-The following are instructions for Java exercise 
+The following are instructions for exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -10,86 +10,64 @@ This exercise contains two directories:
 
 
 ---
-## Exercise Instructions
-
-## 1. Zero Shot Prompting
-
-Chat with Copilot using the following prompt.
-
+### CSV Files
+Create a csv file.
 ```text
-Create a new Python class for an Person.
+// create csv data for 'id, name, phone' with 10 rows of data
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-Use copilot to create a class from comments
+[data.csv](./02.03.1/solution/data.csv)
+
+### SQL
 ```text
-// create a person class that is final
-// use the final keyword to prevent inheritance
-// the class should be based on the encapsulation pattern
-// the class should have the following fields
-// id, name, age
-
+// create csv data for 'id, name, phone' and two contacts
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-[Person.py](./solution/Person.py)
+[data.sql](./02.03.1/solution/data.sql)
 
-Creating a function in Javascript
 
+### JavaScript
 ```text
-Create a calculator function
+// create csv data for 'id, name, phone' and two contacts
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-[calculator.js](./solution/calculator.js)
+[data.js](./02.03.1/solution/data.js)
 
-# 2. One Shot Prompting
 
-Chat with Copilot using the following prompt.
 
-Use copilot to create a class from comments
+### Python
 ```text
-// create a Person class that is final
-// use the final keyword to prevent inheritance
-// the class should be based on the encapsulation pattern
-// the class should have the following fields
-// id, name, age
-
+# create a User datamodel using Yaml syntax
+"""
+- USER
+    - id: int primary key
+    - name: string not null
+    - age: int not null
+"""
 ```
-[Person.java](./solution/Person.java), 
-[Person.js](./solution/Person.js), 
+[data.py](./02.03.1/solution/data.py)
 
-
-# 3. Multiple Shot Prompting
-
-Chat with Copilot using the following prompt which includes an example of what we are looking for.
-
+### YAML
 ```text
-Create a new Python class for an Airplane.
-
-Use the following Car based on C++ code as an example for the Python class:
-
-class Car {
-  private:
-  string make_name;
-  string model_name;
-  string registration_number;
-
-  public:
-  string getMakeName();
-  string getModelName();
-  string getRegistrationNumber();
-  void drive();
-}
+person:
+  name: John Doe
+  age: 30
+  address:
+    street: 123 Main St
+    city: Anytown
+    state: Anystate
+  hobbies:
+    - Reading
+    - Coding
+    - Hiking
 ```
-[Airplane.py](./solution/airplane.py)
-
-
----
-
-#### [../back](./README.md)
-
+[data.yml](./02.03.1/solution/data.yml)
 
 
 
 --- 
 # Notes
-> TBD
-
+> * TBD
 
 
 ---

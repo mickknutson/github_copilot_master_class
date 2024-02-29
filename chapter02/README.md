@@ -16,8 +16,10 @@ Various features of Github Copilot including example prompts and exercises for d
 
 6. [Jupyter Notebooks](./jupyter.md)
 
+6. [Mermaid Charts and Diagrams](./mermaid.md)
+
 
 
 ---
 
-#### [./back](./README.md)
+#### [../back](../README.md)

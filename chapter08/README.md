@@ -1,8 +1,8 @@
-# GitHub Copilot for GIT tasks
+# GitHub Copilot Command Line Interface
 
-GitHub Copilot is an AI-powered code completion tool that significantly enhances the coding experience by suggesting code snippets and entire functions in real-time. While primarily designed to assist in writing code more efficiently, Copilot can also be incredibly helpful for GIT tasks, making it an invaluable tool for developers working with version control systems.
+`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.
 
-
+The `gh-copilot` CLI extension brings the power of GitHub Copilot directly to your terminal, allowing you to generate code, comments, and even entire functions quickly through the command line interface.
 
 ## Topics
 
