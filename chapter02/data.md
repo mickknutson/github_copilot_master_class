@@ -1,4 +1,4 @@
-# Creating and Using Data
+# Chapter 02.04: Creating and Using Data
 Various ways to create data in copilot
 
 

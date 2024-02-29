@@ -46,7 +46,7 @@ Please note that the paths should be relative to the current directory. If you r
 
 ## Create an alias in `~.aliases`:
 ```t
-alias link-check = "find . -type d \( -path **/node_modules -o -path **/dist \) -prune -o -name '*.md' -print | xargs markdown-link-check"
+alias mlk-check='find . -type d \( -path **/node_modules -o -path **/dist \) -prune -o -name "*.md" -print | xargs markdown-link-check'
 ```
 
 

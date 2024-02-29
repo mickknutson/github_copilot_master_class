@@ -1,4 +1,4 @@
-# Github Copilot Scopes
+# Chapter 02.01: Github Copilot Scopes
 Introduction to Github Copilot Scopes
 
 

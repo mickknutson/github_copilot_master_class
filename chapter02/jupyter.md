@@ -1,4 +1,4 @@
-# What is a Jupyter Notebook?
+# Chapter 02.06: Jupyter Notebooks
 
 A Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text. The name "Jupyter" is a reference to the core programming languages supported by Jupyter, which are Julia, Python, and R, though today, Jupyter supports many more programming languages. Jupyter Notebooks are widely used in data science, scientific computing, and machine learning for data cleaning and transformation, numerical simulation,...
 

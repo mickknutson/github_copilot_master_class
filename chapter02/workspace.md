@@ -30,12 +30,21 @@ how do i initialize a javascipt project that uses Jest module called my-js-proje
 
 # Java
 
-## Prompting for workspace details for a Java project 
+## Prompting to create a Java 11 project using Maven
+**@workspace**
 ```text
-@workspace what is the proper project structure for a Java Project
+@workspace create a Java Project using Maven
 ```
+
+**@workspace /new**
 ```text
-@workspace /new scaffolding for a Java Project
+@workspace /new scaffolding for a Java 11 Project using Maven
+```
+
+
+**@workspace /createWorkspace**
+```text
+@workspace /createWorkspace for a Java 11 Project using Maven
 ```
 ---
 

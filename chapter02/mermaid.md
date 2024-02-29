@@ -1,4 +1,4 @@
-# Mermaid Chart
+# Chapter 02.07: Mermaid Chart
 
 * [https://www.mermaidchart.com/](https://www.mermaidchart.com/)
 * [Mermaid Live Editor](https://mermaid.live/)
