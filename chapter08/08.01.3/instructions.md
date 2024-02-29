@@ -40,16 +40,6 @@ This command downloads and installs the `gh-copilot` extension directly from Git
 
 After installing the `gh-copilot` extension, you can start using it to generate code snippets, entire functions, or other code constructs directly from your command line.
 
-## Generating Code
-
-To generate code with `gh-copilot`, use the `gh copilot` command followed by your prompt. Here's a basic example:
-
-```bash
-gh copilot "Write a function in Python that reverses a string"
-```
-
-This command asks GitHub Copilot to generate a Python function that reverses a string. The generated code will be printed directly in your terminal.
-
 
 ## Suggestions
 

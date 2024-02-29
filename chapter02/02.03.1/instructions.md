@@ -1,6 +1,6 @@
-# Housing Data Exercises
+# Data Exercises
 
-The following are instructions for shit sectionPython exercise 
+The following are instructions for exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -10,29 +10,59 @@ This exercise contains two directories:
 
 
 ---
-## Exercise Instructions
-
-1. Open Copilot Chat
-
-2. Create a new Python files named `HousingData.py`
-
-3. Add the following description:
+### CSV Files
+Create a csv file.
+```text
+// create csv data for 'id, name, phone' with 10 rows of data
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-# Describe: Function to create a univariate and bivariate analysis on dataset.
+[data.csv](./02.03.1/solution/data.csv)
+
+### SQL
+```text
+// create csv data for 'id, name, phone' and two contacts
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
+[data.sql](./02.03.1/solution/data.sql)
 
-4. Use copilot to generate a fnction using the following prompt:
 
-```t
-Create a function to perform a univariate and bivariate analysis on HousingData.csv and present the outcomes as visual using Seaborn.
+### JavaScript
+```text
+// create csv data for 'id, name, phone' and two contacts
+// inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
+[data.js](./02.03.1/solution/data.js)
 
-5. There are three packages that might not be installed. Ask Copilot Chat how to install those packages and following the instructions to install the packages.
-```t
-how do i install the python package pandas
+
+
+### Python
+```text
+# create a User datamodel using Yaml syntax
+"""
+- USER
+    - id: int primary key
+    - name: string not null
+    - age: int not null
+"""
 ```
+[data.py](./02.03.1/solution/data.py)
 
-6. Right-click on the `HousingData.py` and select `Run Python File in Terminal`.
+### YAML
+```text
+person:
+  name: John Doe
+  age: 30
+  address:
+    street: 123 Main St
+    city: Anytown
+    state: Anystate
+  hobbies:
+    - Reading
+    - Coding
+    - Hiking
+```
+[data.yml](./02.03.1/solution/data.yml)
+
 
 
 --- 
