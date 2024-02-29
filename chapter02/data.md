@@ -12,7 +12,7 @@ Depending upon your language, there are many ways in Copilot to create data.
 
 ## Excercises
 
-1. [Housing Data Exercises](./02.03.2/instructions.md)
+1. [Housing Data Exercises](./02.04.2/instructions.md)
 
 
 ### CSV Files
@@ -21,14 +21,14 @@ Create a csv file.
 // create csv data for 'id, name, phone' with 10 rows of data
 // inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-[data.csv](./02.03.1/solution/data.csv)
+[data.csv](./02.04.1/solution/data.csv)
 
 ### SQL
 ```text
 // create csv data for 'id, name, phone' and two contacts
 // inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-[data.sql](./02.03.1/solution/data.sql)
+[data.sql](./02.04.1/solution/data.sql)
 
 
 ### JavaScript
@@ -36,7 +36,7 @@ Create a csv file.
 // create csv data for 'id, name, phone' and two contacts
 // inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 ```
-[data.js](./02.03.1/solution/data.js)
+[data.js](./02.04.1/solution/data.js)
 
 
 
@@ -50,7 +50,7 @@ Create a csv file.
     - age: int not null
 """
 ```
-[data.py](./02.03.1/solution/data.py)
+[data.py](./02.04.1/solution/data.py)
 
 ### YAML
 ```text
@@ -66,7 +66,7 @@ person:
     - Coding
     - Hiking
 ```
-[data.yml](./02.03.1/solution/data.yml)
+[data.yml](./02.04.1/solution/data.yml)
 
 
 

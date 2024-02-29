@@ -1,6 +1,6 @@
-# Python Workspace Exercise
+# JavaScript Workspace Exercise
 
-The following are instructions for JavaScript exercise 
+The following are instructions exercise 
 
 ## Outline
 This exercise contains two directories:
@@ -13,12 +13,10 @@ This exercise contains two directories:
 ## Exercise Instructions
 
 1. Open Copilot Chat
-2. Use the following prompt to create a base JavaScript project:
+2. Use the following prompt to create a base project:
 ```t
 how do i initialize a javascipt project that uses Jest module called my-js-project
 ```
-
-
 
 
 

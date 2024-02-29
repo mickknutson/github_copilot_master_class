@@ -10,16 +10,18 @@ Depending upon your language, there are many ways in Copilot to create code for 
 - Copilot Chat
 
 ## Shot Prompting
-* [Shot Prompting](./02.04.1/README.md)
+* [Shot Prompting](./shot.md)
 
 
 # Excercises
 
-1. [Shot Prompting](./02.04.1/instructions.md)
+1. [Shot Prompting](./02.02.1/instructions.md)
 
-2. [Functions](./02.04.2/instructions.md)
+2. [Open AI Whisper Exercises](./02.05.1/instructions.md)
 
-3. [Python](./02.04.3/instructions.md)
+2. [Generate RegEx Functions Exercise](./02.05.2/instructions.md)
+
+3. [Python Program Logging Exercise](./02.05.3/instructions.md)
 
 
 

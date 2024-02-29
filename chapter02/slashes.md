@@ -16,7 +16,7 @@ Slash Commands
 
 ## Excercises
 
- 1. [Explain Exercises](./02.02.1/instructions.md)
+ 1. [Explain Exercises](./02.03.1/instructions.md)
 
 
 

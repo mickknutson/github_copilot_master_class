@@ -19,9 +19,9 @@ Introduction to Github Copilot Scopes
 
 # Excercises
 
-1. [Python Workspace Exercise](./02.01.1/instructions.md)
+2. [JavaScript Workspace Exercise](./02.01.1/instructions.md)
 
-2. [JavaScript Workspace Exercise](./02.01.2/instructions.md)
+1. [Python Workspace Exercise](./02.01.2/instructions.md)
 
 3. [Java and Maven workspace Exercise](./02.01.3/instructions.md)
 

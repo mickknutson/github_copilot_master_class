@@ -13,7 +13,7 @@ This exercise contains two directories:
 ## Exercise Instructions
 
 1. Open Copilot Chat
-2. Use the following prompt to create a base JavaScript project:
+2. Use the following prompt to create a base project:
 ```t
 @workspace /new Java Project using Maven
 Use Java version 11
