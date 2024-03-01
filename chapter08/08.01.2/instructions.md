@@ -1,183 +1,158 @@
-# GitHub Copilot X CLI Tutorial
+# GitHub Copilot CLI Extension Tutorial
 
-> WILL REVIEW AGAIN LATER
-> 
-> https://www.toolify.ai/ai-news/revolutionizing-terminal-commands-copilot-cli-powered-by-ai-461382
-
-> https://githubnext.com/projects/copilot-cli/
+The `gh-copilot` CLI extension brings the power of GitHub Copilot directly to your terminal, allowing you to generate code, comments, and even entire functions quickly through the command line interface.
 
 ## Prerequisites
 
-- **GitHub Account**: Ensure you have a GitHub account. If you don't, sign up at [github.com](https://github.com/).
-- **Node.js and npm**: GitHub Copilot CLI requires Node.js (version 12 or later) and npm (Node Package Manager). You can download Node.js, which includes npm, from [nodejs.org](https://nodejs.org/).
+Before installing the `gh-copilot` CLI extension, you must have the following:
+- GitHub CLI (`gh`) installed on your machine. If you don't have GitHub CLI installed, visit [GitHub CLI documentation](https://cli.github.com/manual/installation) for installation instructions.
+- An active GitHub account.
+- GitHub Copilot subscription or GitHub Copilot trial activated for your GitHub account. Visit [GitHub Copilot](https://copilot.github.com/) for more information.
 
-## Step 1: Install GitHub Copilot CLI
+## Installation
 
-1. **Open your terminal**.
-2. **Install the GitHub Copilot CLI globally** by running the following npm command:
+1. **Open your terminal.**
 
-   ```sh
-   npm install -g @github/copilot-cli
-   ```
-   new:
-   ```t
-   npm install -g @githubnext/github-copilot-cli
-   ```
-
-   This command installs the GitHub Copilot CLI globally on your system, making it accessible from any directory.
-
-3. **Verify Installation:** Confirm that Copilot CLI has been installed successfully by checking its version:
-   ```
-   copilot --version
-   ```
-
----
-
-## Step 2: Authenticate with GitHub
-
-1. **Authenticate the CLI with your GitHub account**. After installation, you need to authenticate the CLI to access GitHub Copilot. Run:
-
-   ```sh
-   copilot auth login
-   ```
-
-2. A **web browser will open** asking you to log in to your GitHub account and authorize the GitHub Copilot CLI. Follow the instructions on the screen to complete the authentication process.
-
-
-
-## Step 3: Working in a Session
-
-1. **To start a new Copilot session**:
+2. **Install the `gh-copilot` extension** by running the following command:
 
     ```bash
-    copilot session start
+    gh extension install github/gh-copilot
     ```
 
-2. **Stop the Session**
-    
-    When you're done, you can end the session by running:
+This command downloads and installs the `gh-copilot` extension directly from GitHub.
+
+
+1. **Setting aliases**:
+   Command line aliases can be created in `.aliases` or `.zshrc` file:
 
     ```bash
-    copilot session stop
+    # Github and Copilot
+    alias copilot='gh copilot'
+    alias gcs='gh copilot suggest'
+    alias gce='gh copilot explain'
     ```
 
-    This command terminates the current Copilot session.
+This command downloads and installs the `gh-copilot` extension directly from GitHub.
 
 
 ---
+# Usage
 
-## Step 4: Generate Code with GitHub Copilot CLI
-
-Now that you have installed and authenticated GitHub Copilot CLI, you can start generating code. Here's how to use it:
-
-### Generating Code
-
-1. **Navigate to your project directory** in the terminal where you want to generate code.
-
-2. **run the copilot command**, you can use the `copilot generate` command followed by a prompt. For example:
-
-    ```bash
-    copilot generate "Write a function in JavaScript to add two numbers"
-    ```
-
-    Copilot will provide you with a code snippet based on your prompt.
+After installing the `gh-copilot` extension, you can start using it to generate code snippets, entire functions, or other code constructs directly from your command line.
 
 
-### Specifying code language
+## Suggestions
 
-1. **Navigate to your project directory** in the terminal where you want to generate code.
+- **Suggestions**
 
-2. **Run the Copilot command** to start generating code. For example, to get a suggestion for a Python function, you might use:
-
-   ```sh
-   copilot generate --lang python "def add_numbers(a, b):"
-   ```
-
-   Replace `"def add_numbers(a, b):"` with whatever prompt you wish to use. The `--lang` flag specifies the programming language.
-
-
-### Advanced Usage
-
-GitHub Copilot CLI offers advanced features, including setting preferences for programming languages, frameworks, and more.
-
-- **File Context**: You can provide a file as context for the code generation by using the `--file` option. This allows Copilot to generate code that is consistent with the rest of your file.
+    Ask copilot for suggested for a command in natural language.
 
     ```bash
-    copilot generate "add a function to parse JSON" --file path/to/yourfile.js
+    gh copilot suggest -t git "Undo the most recent local commits"
     ```
 
-- **Language Specification**: You can specify the programming language for your code generation using the `--lang` option.
-
-    ```bash
-    copilot generate "generate a SQL query to select everything from a table" --lang sql
+- **Suggestion Result:**
     ```
-
-- **Ask Questions**
-
-    You can ask specific programming questions or request code examples. For example:
-
-    ```bash
-    copilot ask "How do I reverse a string in Python?"
-    ```
-    Copilot will respond with code snippets or explanations based on your query.
-
-### Navigating Features:
-
-1. **Start a New Copilot Session:** Begin by starting a new Copilot session with a specific file or project:
-   ```
-   copilot edit filename.js
-   ```
-   This will open the specified file in your default editor with Copilot suggestions enabled.
-
-2. **Use Copilot in Your Terminal:** For quick commands or code snippets, use:
-   ```
-   copilot run "your command here"
-   ```
-   Copilot will execute the command or generate code snippets based on your input.
-
-
----
-## Step 4: Use Additional Commands
-
-- **Get help**: To see all available commands and options, use:
-
-  ```sh
-  copilot --help
+    Suggestion:
+        git reset --hard HEAD~1
+        
+        ? Select an option  [Use arrows to move, type to filter]
+        > Copy command to clipboard
+        Explain command
+        Revise command
+        Rate response
+        Exit
   ```
 
-- **Customize suggestions**: You can customize the suggestions by using additional flags such as `--lang` for specifying the language, and `--context` to provide more context to the Copilot for better suggestions.
+This command asks GitHub Copilot suggest can target `shell`, `gh`, `git`.
 
-## Step 5: Updating GitHub Copilot CLI
 
-To update the GitHub Copilot CLI to the latest version, run:
+- **More Suggestion Examples:**
+    ```
+    Examples:
 
-```sh
-npm update -g @github/copilot-cli
+    - Guided experience
+    $ gh copilot suggest
+
+    - Git use cases
+    $ gh copilot suggest -t git "Undo the most recent local commits" 
+    $ gh copilot suggest -t git "Clean up local branches" 
+    $ gh copilot suggest -t git "Setup LFS for images" 
+
+    - Working with the GitHub CLI in the terminal
+    $ gh copilot suggest -t gh "Create pull request"
+    $ gh copilot suggest -t gh "List pull requests waiting for my review"
+    $ gh copilot suggest -t gh "Summarize work I have done in issues and pull requests for promotion"
+
+    - General use cases
+    $ gh copilot suggest -t shell "Kill processes holding onto deleted files"
+    $ gh copilot suggest -t shell "Test whether there are SSL/TLS issues with github.com"
+    $ gh copilot suggest -t shell "Convert SVG to PNG and resize"
+    $ gh copilot suggest -t shell "Convert MOV to animated PNG"
+    ```
+
+
+
+### Explaination
+
+- **Explaination:** Explain a given input command in natural language.
+
+    ```bash
+    gh copilot explain 'git log --oneline --graph --decorate --all'
+    ```
+
+- **Explaination Result:**
+    ```
+    Explanation:                       
+    • git log shows the commit history of the repository.
+    • --oneline shows each commit on a single line with a condensed format.
+    • --graph displays an ASCII art representation of the commit history graph.
+    • --decorate adds additional information to the commit output, such as branch and tag names.
+    • --all shows commits from all branches, not just the current branch.  
+  ```
+
+
+
+- **More Explaination Examples**
+    ```
+    Examples:
+
+    # View disk usage, sorted by size
+    $ gh copilot explain 'du -sh | sort -h'
+
+    # View git repository history as text graphical representation
+    $ gh copilot explain 'git log --oneline --graph --decorate --all'
+
+    # Remove binary objects larger than 50 megabytes from git history
+    $ gh copilot explain 'bfg --strip-blobs-bigger-than 50M'
+    ```
+
+
+
+### Start a Copilot session
+
+  ```sh
+  gh copilot
+  ```
+
+  This command initiates a Copilot session in your terminal. You can start typing your comments or questions, and Copilot will provide suggestions or answers based on the context.
+
+
+### Options
+
+The `gh-copilot` CLI offers several options to customize the code generation process, including specifying the programming language, the number of suggestions, and more. For a full list of options, run:
+
+```bash
+gh copilot --help
 ```
 
----
-## Troubleshooting Advice:
-
-- **Common Errors:** If you encounter permission errors during installation, try prefixing the install command with `sudo` (for Linux/Mac) or run the command prompt as an administrator (for Windows).
-
-- **Connectivity Issues:** Ensure your internet connection is stable during installation and authentication processes.
-
-- **Authentication Problems:** If you're having trouble authenticating, double-check your GitHub credentials and ensure you have authorized Copilot CLI in your GitHub account settings.
-
-Following these steps and advice should help you successfully install and use the Github Copilot CLI, enhancing your coding experience with AI-powered assistance.
 
 
----
-## Conclusion
-
-You've now learned how to install, authenticate, and start generating code with GitHub Copilot CLI. This tool can significantly boost your productivity by providing code suggestions directly in your terminal. Explore the `--help` command to discover more ways to use GitHub Copilot CLI in your development workflow. Remember, while GitHub Copilot can be incredibly helpful, always review the generated code to ensure it meets your requirements and adheres to best practices.
 
 
 --- 
 # Notes
 > 
-
-
 
 ---
 
