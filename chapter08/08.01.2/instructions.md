@@ -177,6 +177,9 @@ You've now learned how to install, authenticate, and start generating code with 
 # Notes
 > 
 
+
+github-copilot-cli
+
 ---
 
 #### [../back](../README.md)

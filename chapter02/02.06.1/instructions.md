@@ -1,4 +1,4 @@
-# Creating a Jupyter Notebook in Visual Studio Code with GitHub Copilot
+# Demo: Creating a Jupyter Notebook in Visual Studio Code with GitHub Copilot
 
 This tutorial guides you through the process of creating a Jupyter Notebook in Visual Studio Code (VS Code) using GitHub Copilot. Follow these steps for a seamless setup.
 
@@ -51,6 +51,7 @@ Start typing Python code in the notebook cells. GitHub Copilot may suggest code 
 ## Conclusion
 
 This tutorial outlined the steps to create and utilize a Jupyter Notebook in VS Code, enhanced by GitHub Copilot for a powerful Python development and data analysis environment.
+
 
 
 --- 

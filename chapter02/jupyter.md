@@ -27,8 +27,9 @@ To use Jupyter Notebooks, you can install JupyterLab or the classic Jupyter Note
 Jupyter Notebooks are a powerful tool for interactive computing, combining code execution with rich text and multimedia documentation in a shareable format.
 
 
-## Exercise
-[Jupyter  Exercise](./02.06.1/instructions.md)
+
+# Exercise
+[Jupyter  Demo](./02.06.1/instructions.md)
 
 
 
