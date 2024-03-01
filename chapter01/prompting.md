@@ -1,7 +1,17 @@
 
-# Effective GitHub Copilot Prompts
+# Chapter 01.01: Effective GitHub Copilot Prompts
 
 Effective GitHub Copilot prompts are those that clearly convey the task at hand, incorporating necessary details and context to guide the AI in generating the most accurate and useful code suggestions. Here are some examples of well-crafted prompts that have been known to yield good results:
+
+## Give Copilot Descriptions
+- **Prompt:** 
+  ```t
+  // Description: Function for sorting floats.
+  ```
+  or
+  ```t
+  // Description: Person Class
+  ```
 
 ## Creating a New Function
 - **Prompt:** 

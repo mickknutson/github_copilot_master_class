@@ -178,7 +178,6 @@ You've now learned how to install, authenticate, and start generating code with 
 > 
 
 
-github-copilot-cli
 
 ---
 

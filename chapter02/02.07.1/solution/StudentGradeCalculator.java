@@ -7,6 +7,16 @@ import java.util.Map;
 /**
  * From: https://github.com/CodelyTV/refactoring-code_smells-design_patterns/blob/main/examples/java/java-student_grades-05_simplify_conditionals/src/main/java/tv/codely/student_grades/StudentGradeCalculator.java
  */
+/*
+@startuml
+class StudentGradeCalculator {
+  -studentName: String
+  -grades: List<Integer>
+  +calculateAverage(): double
+  +getGrade(): String
+}
+@enduml
+ */
 public class StudentGradeCalculator {
     final private Map<Integer, List<Pair<String, Boolean>>> allYearsTeachers = Map.ofEntries(
         new AbstractMap.SimpleImmutableEntry<>(
@@ -39,8 +49,7 @@ public class StudentGradeCalculator {
             List.of(new Pair<>("Lerele", false))
         )
     );
-    private fina
-           l int                                       yearToCalculate;
+    private final int                                       yearToCalculate;
 
     public StudentGradeCalculator(final int yearToCalculate) {
         this.yearToCalculate = yearToCalculate;

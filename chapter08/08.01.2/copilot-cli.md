@@ -1,4 +1,4 @@
-## GitHub Copilot CLI
+## GithubNext `@githubnext/github-copilot-cli` for GitHub Copilot
 
 A CLI experience for letting GitHub Copilot help you on the command line.
 
@@ -32,7 +32,7 @@ We appreciate any and all input on how well GitHub Copilot CLI works on your pla
 GitHub Copilot CLI requires Node.js 16.0.0 or later. When using versions of Node.js prior to 16.0.0, you may encounter errors such as the following.
 
 ```bash
-usr/local/lib/node_modules/@githubnext/github-copilot-cli/dist/index.js:27
+/usr/local/lib/node_modules/@githubnext/github-copilot-cli/dist/index.js:27
 ...
 SyntaxError: Unexpected token '.'
     at wrapSafe (internal/modules/cjs/loader.js:915:16)
@@ -56,6 +56,15 @@ $ github-copilot-cli auth
 
 and follow the on-screen instructions.
 Once authenticated, the token will be stored on your machine and used for future requests, so this command only rarely needs to be run.
+
+```
+[~/github_copilot_master_class (master)]$ github-copilot-cli auth
+Copy this code: 9CA7-7AD9
+
+Then go to https://github.com/login/device, paste the code in and approve the access.
+Failed to authenticate: You do not have access to GitHub Copilot CLI. Please join the waitlist at https://githubnext.com/projects/copilot-cli/., Unable to verify waitlist access.
+
+```
 
 ## Upgrading
 
@@ -170,4 +179,19 @@ This enables the commands to more tightly integrate with the current shell sessi
    In fact, when you do run `github-copilot-cli` directly, we wish to avoid exactly this confusion and therefore simply print the command and ask you to copy/paste it into your shell yourself, rather than opening a subshell.
 
 2. When you accept a suggested command, we not only run it but also add it to your shell's command history.
-   This means that if you wish to run it again or edit it, you can just use up-arrow or Ctrl-R to recall it.
+   This means that if you wish to run it again or edit it, you can just use `up-arrow` or `Ctrl-R` to recall it.
+
+
+
+--- 
+# Notes
+> 
+
+
+[NPM github-copilot-cli](https://www.npmjs.com/package/@githubnext/github-copilot-cli)
+
+[GithubNext CLI Doc](https://githubnext.com/projects/copilot-cli/)
+
+---
+
+#### [../back](../README.md)
