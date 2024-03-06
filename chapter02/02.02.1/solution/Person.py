@@ -1,3 +1,5 @@
+# Description: A Person class.
+
 # Create a new Python class for an Person
 class Person:
     def __init__(self, name, age):

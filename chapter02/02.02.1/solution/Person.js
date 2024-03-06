@@ -1,3 +1,5 @@
+// Description: A Person class.
+
 // create a person class that is final
 // use the final keyword to prevent inheritance
 // the class should be based on the encapsulation pattern
