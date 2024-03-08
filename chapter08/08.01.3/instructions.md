@@ -1,4 +1,4 @@
-# Github CLI `repo` command for Repository Management
+# Github CLI `run` command for Actions
 
 
 ---

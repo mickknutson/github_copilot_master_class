@@ -17,9 +17,9 @@ This project isGithub Copilot Workshop the example code for the Github Copilot M
 
 # Section Overview
 
-1. [Introduction To Github Copilot](chapter01/README.md)
+1. [Introduction to Github Copilot](chapter01/README.md)
 
-2. [Using Copilot for coding](chapter02/README.md)
+2. [Using Github Copilot for coding](chapter02/README.md)
 
 3. [Refactoring](./chapter03/README.md)
 

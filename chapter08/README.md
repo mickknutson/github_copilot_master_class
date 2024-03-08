@@ -6,7 +6,8 @@ The `gh-copilot` CLI extension brings the power of GitHub Copilot directly to yo
 
 ## Topics
 
-1. [Github CLI](./08.01.1/instructions.md)
+1. [Installing Github CLI](./08.01.1/instructions.md)
+1. [Github CLI repo command](./repo.md)
 2. [Github gh-copilot cli extension](./08.01.2/instructions.md)
 
 ---

@@ -1,4 +1,4 @@
-# Chapter 02: Using Copilot for coding
+# Chapter 02: Using Github Copilot for coding
 
 Various features of Github Copilot including example prompts and exercises for different features.
 
