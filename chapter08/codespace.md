@@ -1,8 +1,8 @@
-# Beginner's Guide to Using the "gh codespace" Command
+# Beginner's Guide to Using the `gh codespace` Command
 
 Welcome to a beginner-friendly tutorial on utilizing the GitHub CLI's `gh codespace` command. This guide aims to simplify the concept of codespaces and how you can leverage them for your development projects. Let's dive in without the jargon.
 
-## Introduction to "gh codespace" Command
+## Introduction to `gh codespace` Command
 
 GitHub Codespaces provides a fully configured development environment in the cloud, accessible directly from GitHub or your local IDE. The `gh codespace` command allows you to create, manage, and work within these cloud-based development environments directly from your terminal, offering a seamless integration with GitHub repositories.
 

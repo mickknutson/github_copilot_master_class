@@ -26,10 +26,26 @@ This command downloads and installs the `gh-copilot` extension directly from Git
    Command line aliases can be created in `.aliases` or `.zshrc` file:
 
     ```bash
-    # Github and Copilot
-    alias copilot='gh copilot'
-    alias gcs='gh copilot suggest'
-    alias gce='gh copilot explain'
+    export copilot="gh copilot"
+
+    alias gcs="$copilot suggest"
+    alias gce="$copilot explain"
+    alias gch="$copilot history"
+    alias gcr="$copilot reset"
+    alias gcl="$copilot list"
+    alias gci="$copilot ignore"
+    alias gcu="$copilot unignore"
+
+
+    export ghcope='f_ghcop() { gh copilot explain "$*"; unset -f f_ghcop; }; f_ghcop'
+    export ghcops='f_ghcop() { gh copilot suggest -t gh "$*"; unset -f f_ghcop; }; f_ghcop'
+    export gitcops='f_ghcop() { gh copilot suggest -t git "$*"; unset -f f_ghcop; }; f_ghcop'
+    export shcops='f_ghcop() { gh copilot suggest -t shell "$*"; unset -f f_ghcop; }; f_ghcop'
+
+    alias ??="$ghcope"
+    alias git?="$gitcops"
+    alias gh?="$ghcops"
+    alias sh?="$shcops"
     ```
 
 This command downloads and installs the `gh-copilot` extension directly from GitHub.
@@ -152,7 +168,21 @@ gh copilot --help
 
 --- 
 # Notes
-> 
+
+
+
+
+gh copilot suggest "search for js files, list them and count total number"
+
+$ find . -name "*.js" -type f -print | wc -l
+    2288
+
+
+gh copilot suggest "search for js files"
+
+
+$ find . -name "*.js"
+
 
 ---
 
