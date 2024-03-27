@@ -42,6 +42,8 @@ The GitHub CLI is a powerful tool that simplifies GitHub workflows directly from
 ---
 # Reference Manual
 > See [Official GitHub CLI manual](https://cli.github.com/manual/)
+>
+> See [GitHub CLI Extensions](https://github.com/topics/gh-extension)
 
 
 --- 
