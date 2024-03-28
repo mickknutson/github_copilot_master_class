@@ -12,16 +12,3 @@
 
 # Ignore all tmp directories
 **/tmp/
-
-# Ignore C# build artifacts
-bin/
-obj/
-
-# Ignore NuGet package directories
-packages/
-
-# Ignore Visual Studio files
-*.sln
-*.csproj
-*.user
-*.vs/
