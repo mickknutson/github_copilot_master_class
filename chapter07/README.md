@@ -96,6 +96,13 @@ GitHub's code security and analysis features are powerful tools in maintaining t
 Remember, security is an ongoing process. Regularly review and update your security practices to keep your project safe and secure.
 
 
+
+---
+# Reference Manual
+> See [About GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security)
+
+
+
 ---
 
 #### [../back](../README.md)

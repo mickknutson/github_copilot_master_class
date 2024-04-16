@@ -1,4 +1,4 @@
-// Descrition: Implement a sort algorithm.
+// 03.01.1 Descrition: Implement a sort algorithm.
 
 /**
  * Sorts an array in ascending order using the insertion sort algorithm.

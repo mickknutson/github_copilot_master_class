@@ -25,6 +25,8 @@ Introduction to Github Copilot Scopes
 
 3. [Java and Maven workspace Exercise](./02.01.3/instructions.md)
 
+4. [Ruby workspace Exercise](./02.01.4/instructions.md)
+
 
 
 ---

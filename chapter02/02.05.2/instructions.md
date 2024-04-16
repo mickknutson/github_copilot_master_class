@@ -1,3 +1,5 @@
+<!-- 02.05.2 RegEx -->
+
 # Functions and Methods
 Github Copilot / chat can create a wide range of functions, methods in many ways.
 

@@ -4,7 +4,7 @@ Various features of Github Copilot including example prompts and exercises for d
 
 ## Topics
 
-1. [Scopes](./scopes.md)
+1. [ASgents / Scopes](./agents.md)
 
 2. [Shot Prompting](./shot.md)
 

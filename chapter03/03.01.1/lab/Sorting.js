@@ -1,4 +1,5 @@
-// Descrition: Implement a sort algorithm.
+// 03.01.1 Descrition: Implement a sort algorithm.
+
 function sort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let current = arr[i];
