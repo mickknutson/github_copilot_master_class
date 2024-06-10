@@ -1,9 +1,11 @@
-// 03.02.1 b conditionalBitSwap
+// 03.02.1 conditionalBitSwap
 
 
 public class ConditionalBitSwap {
 
 /*
+pulled from conditionalBitSwap.cpp
+
 Generate a function 'conditionalBitSwap' that takes in 4 arguments:
 - 'arr1': an array of char 
 - 'arr2': an array of char 
@@ -24,6 +26,7 @@ After calling conditionalBitSwap(arr1, arr2, m), arr1 and arr2 should be:
 arr1 = [0b0010, 0b0110]
 arr2 = [0b1110, 0b1001]
 */
+
 
 
 }
