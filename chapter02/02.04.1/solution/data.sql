@@ -1,4 +1,4 @@
-// create a sql file with the following content
+// Description: create a sql file with the following content
 // create csv data for 'id, name, phone' and two contacts
 // inline autocomplete works for the csv file: type `id` and press tab to autocomplete the header
 id, name, phone

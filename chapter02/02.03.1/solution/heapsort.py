@@ -1,5 +1,6 @@
 #!/usr/bin/python2
 
+
 def swap(array, i, j):
     tmp = array[i]
     array[i] = array[j]
@@ -29,7 +30,6 @@ def perc_down(array, start, end):
             return
 
 def heap_sort(array):
-    """ Sorting function """
     # biggest to smallest
     heapify(array)
     end = len(array) - 1

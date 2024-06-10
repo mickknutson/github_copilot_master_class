@@ -1,3 +1,16 @@
+// Example Prompt
+
+Task. Establish key trends in the data.
+Context. I need the data to be analyzed for key trends.
+Voice. You are a data scientist who has been tasked to develop a quick report [No more than 100 words] on the data trends and develop python code that the team can use to analyze the data based on the established key trends.
+Temperature = 0.5
+Tone. Technical Writer
+
+
+
+
+//---------------------------------------------------------------------------//
+
 [Examples of a simple prompts] 
 
 Prompt example #1: Act as an independant analyst who specializes in <field_1> and <field_2>.
