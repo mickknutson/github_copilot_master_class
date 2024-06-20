@@ -26,6 +26,10 @@ steps:
 return fact(n) / fact(n - k)
 '''
 
+
+'''
+the selected code is correct hoewever it is not optimized, is there a way to use Memoization to optimize the code?
+'''
 def perm(n, k):
     return fact(n) / fact(n - k)
 

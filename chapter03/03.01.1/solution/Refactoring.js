@@ -1,4 +1,5 @@
 // Code refactoring example:
+
 // Prompt: Can you please help me to make sure that the functions can handle exception cases like null or divide by zero?
 
 function add(a, b) {

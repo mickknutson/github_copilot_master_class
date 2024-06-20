@@ -55,6 +55,15 @@
 
 
 
+<!--
+Create a table of presenters with the following columns:
+- Name
+- Email
+- Picture
+-->
+
+
+
 
 ---
 

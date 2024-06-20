@@ -5,7 +5,7 @@ The `@workspace` scope allows you to interact with Github Copilot specifically w
 # JavaScript
 ## Prompting for workspace details for a specific language (JavaScript)
 `/createWorkspace`:
-
+find . -type f -name '*.cs'find . -type f -name '*.cs'
 ```text
 /createWorkspace for javascript project using Jest
 ```
@@ -55,9 +55,9 @@ how do i initialize a javascipt project that uses Jest module called my-js-proje
 Use Java version 11
 Add JUnit Jupiter dependencies for Junit 5 unit testing
 Add Surefire plugin for running tests
-Use version '[5.0,)' of org.junit.jupiter
-Package structure of com.baselogic.copilot.demo
-Name the project my-java-project
+Use version '[5.0,)' of 'org.junit.jupiter'
+Package structure of 'com.baselogic.copilot.demo'
+Name the project 'my-java-project'
 ```
 > See notes below
 

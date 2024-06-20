@@ -36,3 +36,11 @@ This project isGithub Copilot Workshop the example code for the Github Copilot M
 ### [Resources](docs/resources.md)
 ### [License](docs/license.md)
 ### [TODOs](docs/todo.md)
+
+
+<!--
+Create a table of presenters with the following columns:
+- Name
+- Email
+- Picture
+-->

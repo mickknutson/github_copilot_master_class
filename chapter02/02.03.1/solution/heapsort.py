@@ -29,19 +29,19 @@ def perc_down(array, start, end):
         else: 
             return
 
-def heap_sort(array):
-    # biggest to smallest
-    heapify(array)
-    end = len(array) - 1
-    while end > 0:
-        # swap biggest node with end node
-        swap(array, end, 0)
-        # make sure first node is biggest
-        perc_down(array, 0, end - 1)
+def sort(array):
+    n = len(array)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if array[j] > array[j+1]:
+                swap(array, j, j+1)
         end -= 1
+
+
+
 
 if __name__ == "__main__":
     array = [17, 9, 13, 8, 7, -5, 6, 11, 3, 4, 1, 2]
-    heap_sort(array)
+    sort(array)
     print(array)
 

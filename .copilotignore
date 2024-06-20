@@ -1,9 +1,9 @@
-# .copilotignore
+œ# .copilotignore
 
 # Ignore secrets
 secret/
 
-# Ignore my IP
+# Ignore my I. Property
 /ip
 
 # Ignore all log files

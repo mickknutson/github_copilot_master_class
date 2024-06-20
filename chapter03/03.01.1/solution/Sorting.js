@@ -1,7 +1,8 @@
-// 03.01.1 Descrition: Implement a sort algorithm.
+// 03.01.1 Description: Explain and transform a sort algorithm.
 
 /**
  * Sorts an array in ascending order using the insertion sort algorithm.
+ * 
  * 
  * @param {Array} arr - The array to be sorted.
  * @returns {Array} - The sorted array.

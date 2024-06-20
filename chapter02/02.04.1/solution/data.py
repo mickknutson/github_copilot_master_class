@@ -8,13 +8,4 @@
     - age: int not null
 """
  
- # create a User class based off the User datamodel
-class User:
-    def __init__(self, id, name, age):
-        self.id = id
-        self.name = name
-        self.age = age
  
-    def __repr__(self):
-        return f'User({self.id}, {self.name}, {self.age})'
-    

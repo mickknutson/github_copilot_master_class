@@ -12,3 +12,4 @@
 
 # Ignore all tmp directories
 **/tmp/
+**/*.log
