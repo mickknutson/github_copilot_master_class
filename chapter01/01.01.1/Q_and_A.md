@@ -2,11 +2,18 @@
 Description: This file contains the text of the Q&A section for chapter 01.01.1.
 -->
 
-# Chapter 01.01.1 Q&A
+# Q&A
 
-## Q: What is the difference between a program and a process?
+Q: What is the purpose of the `img` element?
 
-A: A program is a set of instructions that are stored in a file on disk. A process is an instance of a program that is running on a computer. A program can be loaded into memory and executed by the operating system, creating a process. A process is an active entity that can be managed by the operating system. A program is a passive entity that is stored on disk.
+A: The `img` element is used to embed an image in an HTML document.
+
+
+
+
+
+
+
 
 
 
@@ -16,7 +23,7 @@ Create a table of presenters with the following columns:
 - Email
 - Picture
 -->
-| Name     | Email              | Picture |
-|----------|--------------------|---------|
-| John Doe | john@example.com   | ![John](john.jpg) |
-| Jane Doe | jane@example.com   | ![Jane](jane.jpg) |
+
+| Name | Email | Picture |
+|------|-------|---------|
+|      |       |         |

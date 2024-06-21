@@ -24,6 +24,7 @@ app.use(bodyParser.urlencoded({
 //         })
 //     }
 // })
+
 app.get('/', (req, res) => {
     const user = req.query.q;
 

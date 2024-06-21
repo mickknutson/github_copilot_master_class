@@ -1,4 +1,4 @@
-œ# .copilotignore
+# .copilotignore
 
 # Ignore secrets
 secret/
