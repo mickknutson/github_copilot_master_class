@@ -30,6 +30,7 @@ arr2 = [0b1110, 0b1001]
 
     /*
     Create a conditionalBitSwap method using the following CPP method signature:
+    
     void conditionalBitSwap(char arr1[], char arr2[], char m, size_t arrLen) {
         for (size_t i = 0; i < arrLen; i++) {
             char mask = 1;

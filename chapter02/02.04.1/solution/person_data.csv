@@ -1,5 +1,1 @@
 # Description: Person data in CSV format
-
-id,first_name,last_name,email
-1,John,Doe,jd@gmail.com
-2,Jane,Doe,jdd@gmail.com

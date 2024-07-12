@@ -1,4 +1,5 @@
 // Description: Conditional bit swap
+
 /*
 
 Generate a function 'conditionalBitSwap' that takes in 4 arguments:
@@ -21,6 +22,7 @@ m = 0b1010
 After calling conditionalBitSwap(arr1, arr2, m), arr1 and arr2 should be:
 arr1 = [0b0010, 0b0110]
 arr2 = [0b1110, 0b1001]
+
 */
 
 #include <iostream>

@@ -12,13 +12,8 @@ if n is negative return 0
 if n == 0 or n == 1 return 1
 return n * fact(n - 1)
 '''
-# def fact(n):
-#     if n < 0:
-#         return 0
-#     elif n == 0 or n == 1:
-#         return 1
-#     else:
-#         return n * fact(n - 1)
+
+
 
 
 '''
@@ -28,20 +23,3 @@ nPk = n! / (n - k)!
 steps:
 return fact(n) / fact(n - k)
 '''
-# Create a dictionary to store previously calculated factorials
-factorial_cache = {}
-
-def fact(n):
-    if n < 0:
-        return 0
-    elif n == 0 or n == 1:
-        return 1
-    elif n in factorial_cache:
-        return factorial_cache[n]
-    else:
-        factorial_cache[n] = n * fact(n - 1)
-        return factorial_cache[n]
-
-def perm(n, k):
-    return fact(n) / fact(n - k)
-

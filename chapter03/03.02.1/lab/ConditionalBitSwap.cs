@@ -23,6 +23,28 @@ arr1 = [0b0010, 0b0110]
 arr2 = [0b1110, 0b1001]
 */
 
+// using System;
+
+// namespace CSharpLab.ConditionalBitSwap
+// {
+//     public class Conditional
+//     {
+//         public void conditionalBitSwap(char[] arr1, char[] arr2, char m, int arrLen)
+//         {
+//             for (int i = 0; i < arrLen; i++)
+//             {
+//                 if ((m & (1 << i)) != 0 && arr1[i] != arr2[i])
+//                 {
+//                     arr1[i] ^= arr2[i];
+//                     arr2[i] ^= arr1[i];
+//                     arr1[i] ^= arr2[i];
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
 
 
 // C++
@@ -39,35 +61,20 @@ arr2 = [0b1110, 0b1001]
 //         }
 //     }
 // }
+public void conditionalBitSwap(char[] arr1, char[] arr2, char m, int arrLen)
+{
+    for (int i = 0; i < arrLen; i++)
+    {
+        char mask = 1;
+        for (int j = 0; j < 8; j++)
+        {
+            if ((m & mask) != 0 && ((arr1[i] & mask) != (arr2[i] & mask)))
+            {
+                arr1[i] ^= mask;
+                arr2[i] ^= mask;
+            }
+            mask <<= 1;
+        }
+    }
+}
 
-
-// C# code
-// public void conditionalBitSwap(char[] arr1, char[] arr2, char m, int arrLen)
-// {
-//     for (int i = 0; i < arrLen; i++)
-//     {
-//         if ((m & (1 << i)) != 0 && arr1[i] != arr2[i])
-//         {
-//             arr1[i] ^= arr2[i];
-//             arr2[i] ^= arr1[i];
-//             arr1[i] ^= arr2[i];
-//         }
-//     }
-// }
-
-// public void conditionalBitSwap(char[] arr1, char[] arr2, char m, int arrLen)
-// {
-//     for (int i = 0; i < arrLen; i++)
-//     {
-//         char mask = 1;
-//         for (int j = 0; j < 8; j++)
-//         {
-//             if ((m & mask) != 0 && ((arr1[i] & mask) != (arr2[i] & mask)))
-//             {
-//                 arr1[i] ^= mask;
-//                 arr2[i] ^= mask;
-//             }
-//             mask <<= 1;
-//         }
-//     }
-// }

@@ -2,28 +2,8 @@
 Description: This file contains the text of the Q&A section for chapter 01.01.1.
 -->
 
-# Q&A
+# Chapter 01.01.1 Q&A
 
-Q: What is the purpose of the `img` element?
+## Q1: What is the difference between a variable and a constant?
 
-A: The `img` element is used to embed an image in an HTML document.
-
-
-
-
-
-
-
-
-
-
-<!--
-Create a table of presenters with the following columns:
-- Name
-- Email
-- Picture
--->
-
-| Name | Email | Picture |
-|------|-------|---------|
-|      |       |         |
+A1: A variable is a named storage location that can hold a value, which can be changed during the execution of the program. A constant is a named storage location that holds a value that cannot be changed during the execution of the program.
