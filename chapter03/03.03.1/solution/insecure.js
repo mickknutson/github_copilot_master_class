@@ -47,3 +47,39 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('Server started on port 3000');
 });
+
+
+
+
+/*
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const pool = require('./db'); // Assuming you have a db.js that exports a pool
+const sanitizer = require('sanitizer'); // You can use a sanitizer library
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get('/', (req, res) => {
+    const user = req.query.q;
+
+    if (user && typeof user === 'string') {
+        const sanitizedUser = sanitizer.escape(user); // Sanitize the user input
+        pool.query('SELECT * FROM users WHERE name = $1', [sanitizedUser], (error, results) => {
+            if (error) {
+                console.error(error);
+                res.status(500).json({ error: 'Internal server error' });
+            } else {
+                res.status(200).json(results.rows);
+            }
+        });
+    } else {
+        res.status(400).json({ error: 'Invalid user input' });
+    }
+});
+
+app.listen(3000, () => {
+    console.log('Server started on port 3000');
+});
+*/

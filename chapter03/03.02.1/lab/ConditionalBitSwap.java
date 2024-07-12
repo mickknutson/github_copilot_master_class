@@ -44,6 +44,19 @@ arr2 = [0b1110, 0b1001]
         }
     }
     */
+    public void conditionalBitSwap(char[] arr1, char[] arr2, char m, int arrLen) {
+        for (int i = 0; i < arrLen; i++) {
+            char mask = 1;
+            for (int j = 0; j < 8; j++) {
+                if ((m & mask) != 0 && (arr1[i] & mask) != (arr2[i] & mask)) {
+                    arr1[i] ^= mask;
+                    arr2[i] ^= mask;
+                }
+                mask <<= 1;
+            }
+        }
+    }
+    
     
 
 } // End Class ConditionalBitSwap

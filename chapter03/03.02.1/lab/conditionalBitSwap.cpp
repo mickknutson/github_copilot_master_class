@@ -28,6 +28,8 @@ arr2 = [0b1110, 0b1001]
 #include <iostream>
 #include <vector>
 
+
+
 void conditionalBitSwap(std::vector<char>& arr1, std::vector<char>& arr2, char m) {
     for (size_t i = 0; i < arr1.size(); i++) {
         char mask = 1;
