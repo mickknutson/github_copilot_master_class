@@ -245,3 +245,77 @@ namespace Copilot
     }
 }
  */
+public class HandyDictionary<KT, VT> implements AutoCloseable, Iterable<Map.Entry<KT, VT>> {
+    private final Map<KT, VT> keys2value;
+    private final Function<KT, VT> getValue;
+    private final Consumer<VT> disposeValue;
+
+    public HandyDictionary(Function<KT, VT> getValue, Consumer<VT> disposeValue) {
+        this.keys2value = new HashMap<>();
+        this.getValue = getValue;
+        this.disposeValue = disposeValue;
+    }
+
+    public HandyDictionary(VT defaultValue, Consumer<VT> disposeValue) {
+        this.keys2value = new HashMap<>();
+        this.getValue = key -> defaultValue;
+        this.disposeValue = disposeValue;
+    }
+
+    public HandyDictionary(Consumer<VT> disposeValue) {
+        this.keys2value = new HashMap<>();
+        this.getValue = null;
+        this.disposeValue = disposeValue;
+    }
+
+    @Override
+    public void close() {
+        clear();
+    }
+
+    public void clear() {
+        keys2value.values().forEach(disposeValue);
+        keys2value.clear();
+    }
+
+    public void remove(KT key) {
+        VT value = keys2value.remove(key);
+        if (value != null) {
+            disposeIfUnique(value);
+        }
+    }
+
+    private void disposeIfUnique(VT value) {
+        if (value instanceof AutoCloseable) {
+            int vKeyCount = (int) keys2value.values().stream().filter(v -> v.equals(value)).count();
+            if (vKeyCount < 2) {
+                disposeValue.accept(value);
+            }
+        }
+    }
+
+    public VT get(KT key) {
+        VT value = keys2value.get(key);
+        if (value == null && getValue != null) {
+            value = getValue.apply(key);
+            keys2value.put(key, value);
+        }
+        return value;
+    }
+
+    public void put(KT key, VT value) {
+        VT oldValue = keys2value.put(key, value);
+        if (oldValue != null && !oldValue.equals(value)) {
+            disposeIfUnique(oldValue);
+        }
+    }
+
+    public int size() {
+        return keys2value.size();
+    }
+
+    @Override
+    public Iterator<Map.Entry<KT, VT>> iterator() {
+        return keys2value.entrySet().iterator();
+    }
+}

@@ -1,8 +1,13 @@
-// Description: create a sql file with the following content
-// create data for 'id, name, phone' and two contacts
-// inline autocomplete works for the file: type `id` and press tab to autocomplete the header
-// and `name` and `phone` to autocomplete the values
+/*
+this script uses MySql to add tables and populate them with data for an inventory database.
+The database already exists and is named 'inventory'
+*/
 
-id, name, phone
-1, John Doe, 555-555-5555
-2, Jane Doe, 555-555-5555
+use inventory;
+
+create table products (
+    product_id int not null auto_increment primary key,
+    product_name varchar(50) not null,
+    product_description varchar(255),
+    product_price decimal(10,2) not null
+);

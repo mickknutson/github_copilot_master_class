@@ -1,11 +1,8 @@
-// Code refactoring example:
-
-// Prompt: Can you please help me to make sure that the functions can handle exception cases like null or divide by zero?
-
-// Make sure that the functions can handle exception cases lke null or divide by zero?
-
 function add(a, b) {
   try {
+    if (a === null || b === null) {
+      throw new Error('Null values are not allowed');
+    }
     return a + b;
   } catch (error) {
     console.error('Error occurred while adding:', error);
@@ -15,7 +12,10 @@ function add(a, b) {
 
 function addAll(...args){
   try {
-    return args.reduce((a, b) => a+ b, 0);
+    if (args.some(arg => arg === null)) {
+      throw new Error('Null values are not allowed');
+    }
+    return args.reduce((a, b) => a + b, 0);
   } catch (error) {
     console.error('Error occurred while adding all:', error);
     return null;
@@ -24,6 +24,9 @@ function addAll(...args){
 
 function isPrime(num) {
   try {
+    if (num === null) {
+      throw new Error('Null value is not allowed');
+    }
     if (num <= 1) {
       return false;
     }

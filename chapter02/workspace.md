@@ -1,4 +1,7 @@
-# `@workspace` Scope
+{
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true
+}# `@workspace` Scope
 The `@workspace` scope allows you to interact with Github Copilot specifically with the current `workspace` in your ide.
 
 

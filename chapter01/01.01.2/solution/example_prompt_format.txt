@@ -27,3 +27,4 @@ Prompt content: Content of the prompt that sometimes includes <placeholders>.
 - arguments
 - brief
 - more examples, exceptions, throws
+- return value

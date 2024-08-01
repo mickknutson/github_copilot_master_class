@@ -24,16 +24,10 @@ arr1 = [0b0010, 0b0110]
 arr2 = [0b1110, 0b1001]
 
 */
-
-#include <iostream>
-#include <vector>
-
-
-
-void conditionalBitSwap(std::vector<char>& arr1, std::vector<char>& arr2, char m) {
-    for (size_t i = 0; i < arr1.size(); i++) {
+void conditionalBitSwap(char arr1[], char arr2[], char m, size_t arrLen) {
+    for (size_t i = 0; i < arrLen; i++) {
         char mask = 1;
-        for (size_t j = 0; j < 8; j++) {
+        for (int j = 0; j < 8; j++) {
             if ((m & mask) && ((arr1[i] & mask) != (arr2[i] & mask))) {
                 arr1[i] ^= mask;
                 arr2[i] ^= mask;
