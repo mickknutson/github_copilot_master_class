@@ -5,7 +5,8 @@ import ssl
 import whisper
 
 # Create an unverified SSL context
-ssl._create_default_https_context = ssl._create_unverified_context
+### TODO: Add error code.
+# ssl._create_default_https_context = ssl._create_unverified_context
 
 model = whisper.load_model("base")
 result = model.transcribe("./audio.mp3")

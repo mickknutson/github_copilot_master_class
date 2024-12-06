@@ -1,9 +1,10 @@
-/**
- * Description: This file contains the text of the Q&A section for chapter 01.01.1.
- * You can create a question and answer dialog within code
- */
-// Q: WHat is a microservice?
-// A: A microservice is a small, independent, and loosely coupled service that is designed to perform a single task.
+// Description: Ask programming questions and provide answers inlined in the code.
 
-// Q: What is a polygot microservice?
-// A: A polygot microservice is a microservice that is written in multiple programming languages.
+// Q: What is XSS?
+// A: Cross-site scripting (XSS) is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.
+
+// Q: What is the purpose of the xss package in the code?
+// A: The xss package is used to sanitize user input and prevent XSS attacks by escaping potentially dangerous characters.
+
+// Q: How do I initialize a JS test?
+// A: You can initialize a JS test by running the command `npm test`.

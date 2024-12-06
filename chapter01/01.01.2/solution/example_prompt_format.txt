@@ -16,7 +16,7 @@ Prompt content: Content of the prompt that sometimes includes <placeholders>.
 
 
 
-// File Header Information:
+// File Header Information in Natuaral Language (NL) format:
 
 1. File Header: Description of the file contents.
 

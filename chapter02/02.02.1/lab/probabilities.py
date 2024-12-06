@@ -12,13 +12,6 @@ import math
 import os
 
 
-
-'''
-Optimize Prompt:
-
-The selected code is correct hoewever it is not optimized, is there a way to use external Memoization to optimize the code?
-'''
-
 def memoize(func):
     cache = {}
     

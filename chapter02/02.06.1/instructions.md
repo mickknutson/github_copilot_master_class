@@ -1,62 +1,58 @@
-# Demo: Creating a Jupyter Notebook in Visual Studio Code with GitHub Copilot
+# Open AI Whisper Exercises
 
-This tutorial guides you through the process of creating a Jupyter Notebook in Visual Studio Code (VS Code) using GitHub Copilot. Follow these steps for a seamless setup.
+The following are instructions for an exercise that uses Python with `panda`, `seaborn` and `matplotlib`.
 
-## Prerequisites
+## Outline
+This exercise contains two directories:
+- `lab` contains starter files if any are needed. Might be empty. This is the directory you should perform all your work in. The project and files might not run, and might fail compilation until the lab has been completed. _(See instructions below)_
 
-- Visual Studio Code
-- Python extension for VS Code
-- Jupyter extension for VS Code
-- GitHub Copilot (optional but recommended)
-
-## Step 1: Install Visual Studio Code
-
-Ensure VS Code is installed on your computer. If not, download it from [https://code.visualstudio.com/](https://code.visualstudio.com/) and follow the installation instructions.
-
-## Step 2: Install Python Extension
-
-1. Open VS Code.
-2. Navigate to the Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS).
-3. Search for `Python` and install the extension provided by Microsoft.
-
-## Step 3: Install Jupyter Extension
-
-1. In the Extensions view, search for `Jupyter`.
-2. Install the Jupyter extension provided by Microsoft.
-
-## Step 4: Install GitHub Copilot (Optional)
-
-1. In the Extensions view, search for `GitHub Copilot`.
-2. Install the extension. Note that GitHub Copilot is a paid service, though a free trial may be available.
-
-## Step 5: Create a Jupyter Notebook
-
-1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
-2. Type and select `Jupyter: Create New Blank Notebook`.
-3. A new Jupyter Notebook will open.
-
-## Step 6: Utilize GitHub Copilot
-
-Start typing Python code in the notebook cells. GitHub Copilot may suggest code completions and solutions based on the context.
-
-## Step 7: Running Code Cells
-
-1. Click the play button (`▶️`) next to a cell to run it.
-2. The output will display directly below the cell.
-
-> Example: [jupyter_demo.ipynb](./solution/jupyter_demo.ipynb)
+- `solution` contains completed, and runnable files. Do not perform work in this directory.
 
 
+---
+## Exercise Instructions
 
-## Conclusion
+1. Open Copilot Chat
 
-This tutorial outlined the steps to create and utilize a Jupyter Notebook in VS Code, enhanced by GitHub Copilot for a powerful Python development and data analysis environment.
+2. Create a new Python files named `housing_data_demo.py`
 
+3. Add the following description:
+```
+# Describe: Function to create a univariate and bivariate analysis on dataset.
+```
+
+4. Use copilot to generate a fnction using the following prompt:
+
+```t
+Create a function to perform a univariate and bivariate analysis on HousingData.csv and present the outcomes as visual using Seaborn.
+```
+
+5. There are three packages that might not be installed. Ask Copilot Chat how to install those packages and following the instructions to install the packages.
+```t
+how do i install the python package pandas
+```
+
+6. Right-click on the Python script and select `Run Python File in Terminal`.
+
+7. The output `png` files should be located in the `./tmp` directory.
 
 
 --- 
 # Notes
-> * none
+> * Initial code that copilot generated was outdated:
+```
+You tried to access openai.Audio, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+```
+
+> * Need to get an api_keyn for this to work:
+
+'openai.OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable'
 
 
 ---
